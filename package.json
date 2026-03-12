@@ -1,0 +1,33 @@
+{
+  "name": "slaythespire2-deck-builder",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "biome check src/ scripts/",
+    "lint:fix": "biome check --write src/ scripts/",
+    "format": "biome format --write src/ scripts/",
+    "fetch-data": "tsx scripts/fetch-data.ts"
+  },
+  "dependencies": {
+    "vue": "^3.5.25",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vue/tsconfig": "^0.8.1",
+    "tsx": "^4.19.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^3.2.1",
+    "vue-tsc": "^3.1.5",
+    "zod": "^3.25.17"
+  }
+}

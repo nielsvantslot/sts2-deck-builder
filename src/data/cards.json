@@ -1,0 +1,4034 @@
+[
+  {
+    "title": "Aggression",
+    "description": "At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Anger",
+    "description": "Deal 6 damage. Add a copy of this card into your Discard Pile.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Armaments",
+    "description": "Gain 5 Block. Upgrade a card in your Hand.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Ashen Strike",
+    "description": "Deal 6 damage. Deals 3 additional damage for each card in your Exhaust Pile.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Barricade",
+    "description": "Block is not removed at the start of your turn.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Bash",
+    "description": "Deal 8 damage. Apply 2 Vulnerable.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Battle Trance",
+    "description": "Draw 3 cards. You cannot draw additional cards this turn.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Blood Wall",
+    "description": "Lose 2 HP. Gain 16 Block.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Bloodletting",
+    "description": "Lose 3 HP. Gain .",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Bludgeon",
+    "description": "Deal 32 damage.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Body Slam",
+    "description": "Deal damage equal to your Block.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Brand",
+    "description": "Lose 1 HP. Exhaust 1 card. Gain 1 Strength.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Break",
+    "description": "Deal 20 damage. Apply 5 Vulnerable.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Breakthrough",
+    "description": "Lose 1 HP. Deal 9 damage to ALL enemies.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Bully",
+    "description": "Deal 4 damage. Deals 2 additional damage for each Vulnerable on the enemy.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Burning Pact",
+    "description": "Exhaust 1 card. Draw 2 cards.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Cascade",
+    "description": "Play the top X cards of your Draw Pile.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "X",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Cinder",
+    "description": "Deal 17 damage. Exhaust the top card of your Draw Pile.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Colossus",
+    "description": "Gain 5 Block. You receive 50% less damage from Vulnerable enemies this turn.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Conflagration",
+    "description": "Deal 8 damage to ALL enemies. Deals 2 additional damage for each other Attack you've played this turn.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Corruption",
+    "description": "Skills cost 0 . Whenever you play a Skill, Exhaust it.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Crimson Mantle",
+    "description": "At the start of your turn, lose 1 HP and gain 8 Block.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Cruelty",
+    "description": "Vulnerable enemies take an additional 25% damage.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Dark Embrace",
+    "description": "Whenever a card is Exhausted, draw 1 card.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Defend",
+    "description": "Gain 5 Block.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Demon Form",
+    "description": "At the start of your turn, gain 2 Strength.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Demonic Shield",
+    "description": "Lose 1 HP. Give another player Block equal to your Block.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Dismantle",
+    "description": "Deal 8 damage. If the enemy is Vulnerable, hits twice.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Dominate",
+    "description": "Gain 1 Strength for each Vulnerable on the enemy.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Drum of Battle",
+    "description": "Draw 2 cards. At the start of your turn, Exhaust the top card of your Draw Pile.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Evil Eye",
+    "description": "Gain 8 Block. Gain another 8 Block if you have Exhausted a card this turn.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Expect a Fight",
+    "description": "Gain  for each Attack in your Hand.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Feed",
+    "description": "Deal 10 damage. If Fatal, raise your Max HP by 3. Exhaust.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Feel No Pain",
+    "description": "Whenever a card is Exhausted, gain 3 Block.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Fiend Fire",
+    "description": "Exhaust your Hand. Deal 7 damage for each card Exhausted. Exhaust.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Fight Me!",
+    "description": "Deal 5 damage twice. Gain 2 Strength. The enemy gains 1 Strength.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flame Barrier",
+    "description": "Gain 12 Block. Whenever you are attacked this turn, deal 4 damage back.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Forgotten Ritual",
+    "description": "If you Exhausted a card this turn, gain  .",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Grapple",
+    "description": "Deal 7 damage. Whenever you gain Block this turn, deal 5 damage to the enemy.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Havoc",
+    "description": "Play the top card of your Draw Pile and Exhaust it.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Headbutt",
+    "description": "Deal 9 damage. Put a card from your Discard Pile on top of your Draw Pile.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Hellraiser",
+    "description": "Whenever you draw a card containing “Strike”, it is played against a random enemy.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hemokinesis",
+    "description": "Lose 2 HP. Deal 14 damage.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Howl from Beyond",
+    "description": "Deal 16 damage to ALL enemies. At the start of your turn, plays from the Exhaust Pile.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Impervious",
+    "description": "Gain 30 Block. Exhaust.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Infernal Blade",
+    "description": "Add a random Attack into your Hand. It's free to play this turn. Exhaust.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Inferno",
+    "description": "At the start of your turn, lose 1 HP. Whenever you lose HP on your turn, deal 6 damage to ALL enemies.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Inflame",
+    "description": "Gain 2 Strength.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Iron Wave",
+    "description": "Gain 5 Block. Deal 5 damage.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Juggernaut",
+    "description": "Whenever you gain Block, deal 5 damage to a random enemy.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Juggling",
+    "description": "Add a copy of the third Attack you play each turn into your Hand.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Mangle",
+    "description": "Deal 15 damage. Enemy loses 10 Strength this turn.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Molten Fist",
+    "description": "Deal 10 damage. Double the enemy's Vulnerable. Exhaust.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Offering",
+    "description": "Lose 6 HP. Gain . Draw 3 cards. Exhaust.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "One-Two Punch",
+    "description": "This turn, your next Attack is  played an extra time.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Pact's End",
+    "description": "Can only be played if you have 3 or more cards in your Exhaust Pile. Deal 17 damage to ALL enemies.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Perfected Strike",
+    "description": "Deal 6 damage. Deals 2 additional damage for ALL your cards containing “Strike”.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Pillage",
+    "description": "Deal 6 damage. Draw cards until you draw a non-Attack card.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Pommel Strike",
+    "description": "Deal 9 damage. Draw 1 card.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Primal Force",
+    "description": "Transform all Attacks in your Hand into Giant Rock.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Pyre",
+    "description": "Gain  at the start of each turn.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Rage",
+    "description": "Whenever you play an Attack this turn, gain 3 Block.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rampage",
+    "description": "Deal 9 damage. Increase this card's damage by 5 this combat.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rupture",
+    "description": "Whenever you lose HP on your turn, gain 1 Strength.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Second Wind",
+    "description": "Exhaust all non-Attack cards in your Hand. Gain 5 Block for each card Exhausted.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Setup Strike",
+    "description": "Deal 7 damage. Gain 2 Strength this turn.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Shrug It Off",
+    "description": "Gain 8 Block. Draw 1 card.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Spite",
+    "description": "Deal 6 damage. If you lost HP this turn, draw 1 card.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Stampede",
+    "description": "At the end of your turn, 1 random Attack in your Hand is played against a random enemy.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Stoke",
+    "description": "Exhaust your Hand. Draw a card for each card Exhausted. Exhaust.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Stomp",
+    "description": "Deal 12 damage to ALL enemies. Costs 1 less  for each Attack played this turn.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Stone Armor",
+    "description": "Gain 4 Plating.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Strike",
+    "description": "Deal 6 damage.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Sword Boomerang",
+    "description": "Deal 3 damage to a random enemy 3 times.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Tank",
+    "description": "Take double damage from enemies. Allies take half damage from enemies.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Taunt",
+    "description": "Gain 7 Block. Apply 1 Vulnerable.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Tear Asunder",
+    "description": "Deal 5 damage. Hits an additional time for each time you lost HP this combat.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Thrash",
+    "description": "Deal 4 damage twice. Exhaust a random Attack in your Hand and add its damage to this card.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Thunderclap",
+    "description": "Deal 4 damage and apply 1 Vulnerable to ALL enemies.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Tremble",
+    "description": "Apply 2 Vulnerable.",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "True Grit",
+    "description": "Gain 7 Block. Exhaust 1 card .",
+    "character": "Ironclad",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Twin Strike",
+    "description": "Deal 5 damage twice.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Unmovable",
+    "description": "The first time you gain Block from a card each turn, double the amount gained.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Unrelenting",
+    "description": "Deal 12 damage. The next Attack you play costs 0 .",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Uppercut",
+    "description": "Deal 13 damage. Apply 1 Weak. Apply 1 Vulnerable.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Vicious",
+    "description": "Whenever you apply Vulnerable, draw 1 card.",
+    "character": "Ironclad",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Whirlwind",
+    "description": "Deal 5 damage to ALL enemies X times.",
+    "character": "Ironclad",
+    "type": "Attack",
+    "energyCost": "X",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Abrasive",
+    "description": "Sly. Gain 1 Dexterity. Gain 4 Thorns.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Accelerant",
+    "description": "Poison is triggered 1 additional time.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Accuracy",
+    "description": "Shivs deal 4 additional damage.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Acrobatics",
+    "description": "Draw 3 cards. Discard 1 card.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Adrenaline",
+    "description": "Gain . Draw 2 cards. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Afterimage",
+    "description": "Whenever you play a card, gain 1 Block.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Anticipate",
+    "description": "Gain 3 Dexterity this turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Assassinate",
+    "description": "Innate. Deal 10 damage. Apply 1 Vulnerable. Exhaust.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Backflip",
+    "description": "Gain 5 Block. Draw 2 cards.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Backstab",
+    "description": "Innate. Deal 11 damage. Exhaust.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Blade Dance",
+    "description": "Add 3 Shivs into your Hand. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Blade of Ink",
+    "description": "This turn, whenever you play an Attack, gain 2 Strength this turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Blur",
+    "description": "Gain 5 Block. Block is not removed at the start of your next turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bouncing Flask",
+    "description": "Apply 3 Poison to a random enemy 3 times.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bubble Bubble",
+    "description": "If the enemy has Poison, apply 9 Poison.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bullet Time",
+    "description": "You cannot draw additional cards this turn. ALL cards in your Hand are free to play this turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Burst",
+    "description": "This turn, your next Skill is  played an extra time.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Calculated Gamble",
+    "description": "Discard your Hand, then draw that many cards. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Cloak and Dagger",
+    "description": "Gain 6 Block. Add 1 Shiv into your Hand.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Corrosive Wave",
+    "description": "Whenever you draw a card this turn, apply 3 Poison to ALL enemies.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Dagger Spray",
+    "description": "Deal 4 damage to ALL enemies twice.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Dagger Throw",
+    "description": "Deal 9 damage. Draw 1 card. Discard 1 card.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Dash",
+    "description": "Gain 10 Block. Deal 10 damage.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Deadly Poison",
+    "description": "Apply 5 Poison.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Defend",
+    "description": "Gain 5 Block.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Deflect",
+    "description": "Gain 4 Block.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Dodge and Roll",
+    "description": "Gain 4 Block. Next turn, gain 4 Block.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Echoing Slash",
+    "description": "Deal 10 damage to ALL enemies. Repeat this effect for each enemy killed.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Envenom",
+    "description": "Whenever an Attack deals unblocked damage, apply 1 Poison.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Escape Plan",
+    "description": "Draw 1 card. If you draw a Skill, gain 3 Block.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Expertise",
+    "description": "Draw cards until you have 6 in your Hand.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Expose",
+    "description": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Fan of Knives",
+    "description": "Shivs now hit ALL enemies. Add 4 Shivs into your Hand.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Finisher",
+    "description": "Deal 6 damage for each Attack already played this turn.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flanking",
+    "description": "The enemy takes double damage from other players this turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flechettes",
+    "description": "Deal 5 damage for each Skill in your Hand.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flick-Flack",
+    "description": "Sly. Deal 7 damage to ALL enemies.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Follow Through",
+    "description": "Deal 6 damage to ALL enemies. If the last card you played this turn was a Skill, apply 1 Weak to ALL enemies.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Footwork",
+    "description": "Gain 2 Dexterity.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Grand Finale",
+    "description": "Can only be played if there are no cards in your Draw Pile. Deal 50 damage to ALL enemies.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hand Trick",
+    "description": "Gain 7 Block. Add Sly to a Skill in your Hand this turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Haze",
+    "description": "Sly. Apply 4 Poison to ALL enemies.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Hidden Daggers",
+    "description": "Discard 2 cards. Add 2 Shivs into your Hand.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Infinite Blades",
+    "description": "At the start of your turn, add 1 Shiv into your Hand.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Knife Trap",
+    "description": "Play  every Shiv in your Exhaust Pile on the enemy.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Leading Strike",
+    "description": "Deal 7 damage. Add 1 Shiv into your Hand.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Leg Sweep",
+    "description": "Apply 2 Weak. Gain 11 Block.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Malaise",
+    "description": "Enemy loses X Strength. Apply X Weak. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "X",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Master Planner",
+    "description": "When you play a Skill, it gains Sly.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Memento Mori",
+    "description": "Deal 8 damage. Deals 4 additional damage for each card discarded this turn.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Mirage",
+    "description": "Gain Block equal to Poison on ALL enemies. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Murder",
+    "description": "Deal 1 damage. Deals 1 additional damage for each card drawn this combat.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Neutralize",
+    "description": "Deal 3 damage. Apply 1 Weak.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Nightmare",
+    "description": "Choose a card. Next turn, add 3 copies of that card into your Hand. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Noxious Fumes",
+    "description": "At the start of your turn, apply 2 Poison to ALL enemies.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Outbreak",
+    "description": "Every 3 times you apply Poison, deal 11 damage to ALL enemies.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Phantom Blades",
+    "description": "Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Piercing Wail",
+    "description": "ALL enemies lose 6 Strength this turn. Exhaust.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Pinpoint",
+    "description": "Deal 17 damage. Costs 1 less  for each Skill played this turn.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Poisoned Stab",
+    "description": "Deal 6 damage. Apply 3 Poison.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Pounce",
+    "description": "Deal 12 damage. The next Skill you play costs 0 .",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Precise Cut",
+    "description": "Deal 13 damage. Deals 2 less damage for each other card in your Hand.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Predator",
+    "description": "Deal 15 damage. Next turn, draw 2 cards.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Prepared",
+    "description": "Draw 1 card. Discard 1 card.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Reflex",
+    "description": "Sly. Draw 2 cards.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Ricochet",
+    "description": "Sly. Deal 3 damage to a random enemy 4 times.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Serpent Form",
+    "description": "Whenever you play a card, deal 4 damage to a random enemy.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Shadow Step",
+    "description": "Discard your Hand. Next turn, Attacks deal double damage.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Shadowmeld",
+    "description": "Double your Block gain this turn.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Skewer",
+    "description": "Deal 7 damage X times.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "X",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Slice",
+    "description": "Deal 6 damage.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Snakebite",
+    "description": "Retain. Apply 7 Poison.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Sneaky",
+    "description": "Sly. Whenever another player attacks an enemy, gain 1 Block.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Speedster",
+    "description": "Whenever you draw a card during your turn, deal 2 damage to ALL enemies.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Storm of Steel",
+    "description": "Discard your Hand. Add 1 Shiv into your Hand for each card discarded.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Strangle",
+    "description": "Deal 8 damage. Whenever you play a card this turn, the enemy loses 2 HP.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Strike",
+    "description": "Deal 6 damage.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Sucker Punch",
+    "description": "Deal 8 damage. Apply 1 Weak.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Suppress",
+    "description": "Innate. Deal 11 damage. Apply 3 Weak.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Survivor",
+    "description": "Gain 8 Block. Discard 1 card.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Tactician",
+    "description": "Sly. Gain .",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "The Hunt",
+    "description": "Deal 10 damage. If Fatal, gain an additional card reward. Exhaust.",
+    "character": "Silent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Tools of the Trade",
+    "description": "At the start of your turn, draw 1 card and discard 1 card.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Tracking",
+    "description": "Weak enemies take double damage from Attacks.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Untouchable",
+    "description": "Sly. Gain 9 Block.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Up My Sleeve",
+    "description": "Add 3 Shivs into your Hand. Reduce this card's cost by 1.",
+    "character": "Silent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Well-Laid Plans",
+    "description": "At the end of your turn, Retain up to 1 card.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Wraith Form",
+    "description": "Gain 2 Intangible. At the start of your turn, lose 1 Dexterity.",
+    "character": "Silent",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Adaptive Strike",
+    "description": "Deal 18 damage. Add a 0 copy of this card into your Discard Pile.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "All for One",
+    "description": "Deal 10 damage. Put ALL 0 cards from your Discard Pile into your Hand.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Ball Lightning",
+    "description": "Deal 7 damage. Channel 1 Lightning.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Barrage",
+    "description": "Deal 5 damage for each Channeled Orb.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Beam Cell",
+    "description": "Deal 3 damage. Apply 1 Vulnerable.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Biased Cognition",
+    "description": "Gain 4 Focus. At the start of your turn, lose 1 Focus.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Boost Away",
+    "description": "Gain 6 Block. Add a Dazed into your Discard Pile.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Boot Sequence",
+    "description": "Innate. Gain 10 Block. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Buffer",
+    "description": "Prevent the next time  you would lose HP.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Bulk Up",
+    "description": "Lose 1 Orb Slot. Gain 2 Strength. Gain 2 Dexterity.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Capacitor",
+    "description": "Gain 2 Orb Slots.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Chaos",
+    "description": "Channel 1 random Orb.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Charge Battery",
+    "description": "Gain 7 Block. Next turn, gain .",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Chill",
+    "description": "Channel 1 Frost for each enemy.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Claw",
+    "description": "Deal 3 damage. Increase the damage of ALL Claw cards by 2 this combat.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Cold Snap",
+    "description": "Deal 6 damage. Channel 1 Frost.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Compact",
+    "description": "Gain 6 Block. Transform all Status cards in your Hand into Fuel.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Compile Driver",
+    "description": "Deal 7 damage. Draw 1 card for each unique Orb you have.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Consuming Shadow",
+    "description": "Channel 2 Dark. At the end of your turn, Evoke your leftmost Orb.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Coolant",
+    "description": "At the start of your turn, gain 2 Block for each unique Orb you have.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Coolheaded",
+    "description": "Channel 1 Frost. Draw 1 card.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Creative AI",
+    "description": "At the start of your turn, add a random Power into your Hand.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Darkness",
+    "description": "Channel 1 Dark. Trigger the passive ability of all Dark Orbs.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Defend",
+    "description": "Gain 5 Block.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Defragment",
+    "description": "Gain 1 Focus.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Double Energy",
+    "description": "Double your Energy. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Dualcast",
+    "description": "Evoke your rightmost Orb twice.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Echo Form",
+    "description": "The first card you play each turn is played an extra time.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Energy Surge",
+    "description": "ALL players gain . Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Feral",
+    "description": "The first time you play a 0 Attack each turn, return it to your Hand.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Fight Through",
+    "description": "Gain 13 Block. Add 2 Wounds into your Discard Pile.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flak Cannon",
+    "description": "Exhaust ALL your Status cards. Deal 8 damage to a random enemy for each card Exhausted.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Focused Strike",
+    "description": "Deal 9 damage. Gain 1 Focus this turn.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "FTL",
+    "description": "Deal 5 damage. If you have played fewer than 3 cards this turn, draw 1 card.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Fusion",
+    "description": "Channel 1 Plasma.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Genetic Algorithm",
+    "description": "Gain 1 Block. Permanently increase this card's Block by 3. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Glacier",
+    "description": "Gain 6 Block. Channel 2 Frost.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Glasswork",
+    "description": "Gain 5 Block. Channel 1 Glass.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Go for the Eyes",
+    "description": "Deal 3 damage. If the enemy intends to attack, apply 1 Weak.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Gunk Up",
+    "description": "Deal 4 damage 3 times. Add a Slimed into your Discard Pile.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Hailstorm",
+    "description": "At the end of your turn, if you have Frost, deal 6 damage to ALL enemies.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Helix Drill",
+    "description": "Deal 3 damage for each  previously spent this turn.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hologram",
+    "description": "Gain 3 Block. Put a card from your Discard Pile into your Hand.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Hotfix",
+    "description": "Gain 2 Focus this turn.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Hyperbeam",
+    "description": "Deal 26 damage to ALL enemies. Lose 3 Focus.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Ice Lance",
+    "description": "Deal 19 damage. Channel 3 Frost.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Ignition",
+    "description": "Another player Channels Plasma.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Iteration",
+    "description": "The first time you draw a Status card each turn, draw 2 cards.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Leap",
+    "description": "Gain 9 Block.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Lightning Rod",
+    "description": "Gain 4 Block. At the start of the next 2 turns, Channel 1 Lightning.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Loop",
+    "description": "At the start of your turn, trigger the passive ability of your rightmost Orb.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Machine Learning",
+    "description": "At the start of your turn, draw 1 additional card.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Meteor Strike",
+    "description": "Deal 24 damage. Channel 3 Plasma.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "5",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Modded",
+    "description": "Gain 1 Orb Slot. Draw 1 card. Increase this card's cost by 1.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Momentum Strike",
+    "description": "Deal 10 damage. Reduce this card's cost to 0 .",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Multi-Cast",
+    "description": "Evoke your rightmost Orb X times.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "X",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Null",
+    "description": "Deal 10 damage. Apply 2 Weak. Channel 1 Dark.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Overclock",
+    "description": "Draw 2 cards. Add a Burn into your Discard Pile.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Quadcast",
+    "description": "Evoke your rightmost Orb 4 times.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Rainbow",
+    "description": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Reboot",
+    "description": "Shuffle ALL your cards into your Draw Pile. Draw 4 cards. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Refract",
+    "description": "Deal 9 damage twice. Channel 2 Glass.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rip and Tear",
+    "description": "Deal 7 damage to a random enemy twice.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rocket Punch",
+    "description": "Deal 13 damage. Draw 1 card. When a Status card is created, reduce this card's cost to 0  this turn.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Scavenge",
+    "description": "Exhaust a card. Next turn, gain .",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Scrape",
+    "description": "Deal 7 damage. Draw 4 cards. Discard all cards drawn this way that do not cost 0 .",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Shadow Shield",
+    "description": "Gain 11 Block. Channel 1 Dark.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Shatter",
+    "description": "Deal 11 damage to ALL enemies. Evoke all of your Orbs.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Signal Boost",
+    "description": "The next Power you play is played an additional time. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Skim",
+    "description": "Draw 3 cards.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Smokestack",
+    "description": "Whenever you create a Status, deal 5 damage to ALL enemies.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Spinner",
+    "description": "At the start of your turn, Channel 1 Glass.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Storm",
+    "description": "Whenever you play a Power, Channel 1 Lightning.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Strike",
+    "description": "Deal 6 damage.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Subroutine",
+    "description": "Whenever you play a Power, gain .",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Sunder",
+    "description": "Deal 24 damage. If this kills an enemy, gain .",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Supercritical",
+    "description": "Gain 4. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Sweeping Beam",
+    "description": "Deal 6 damage to ALL enemies. Draw 1 card.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Synchronize",
+    "description": "Gain 2 Focus this turn for each unique Orb you have.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Synthesis",
+    "description": "Deal 12 damage. The next Power you play costs 0 .",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Tempest",
+    "description": "Channel X Lightning.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "X",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Tesla Coil",
+    "description": "Deal 3 damage. Trigger all Lightning against the enemy.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Thunder",
+    "description": "Whenever you Evoke Lightning, deal 6 damage to each enemy hit.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Trash to Treasure",
+    "description": "Whenever you create a Status card, Channel 1 random Orb.",
+    "character": "Defect",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "TURBO",
+    "description": "Gain . Add a Void into your Discard Pile.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Uproar",
+    "description": "Deal 5 damage twice. Play a random Attack from your Draw Pile.",
+    "character": "Defect",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Voltaic",
+    "description": "Channel Lightning equal to the Lightning already Channeled this combat.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "White Noise",
+    "description": "Add a random Power into your Hand. It's free to play this turn. Exhaust.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Zap",
+    "description": "Channel 1 Lightning.",
+    "character": "Defect",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Afterlife",
+    "description": "Summon 6. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Banshee's Cry",
+    "description": "Deal 33 damage to ALL enemies. Costs  less for each Ethereal card played this combat.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "6",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Blight Strike",
+    "description": "Deal 8 damage. Apply Doom equal to damage dealt.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Bodyguard",
+    "description": "Summon 5.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Bone Shards",
+    "description": "If Osty is alive, he deals 9 damage to ALL enemies and you gain 9 Block. Osty dies.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Borrowed Time",
+    "description": "Apply 3 Doom to yourself. Gain .",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bury",
+    "description": "Deal 52 damage.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "4",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Calcify",
+    "description": "Osty's attacks deal 4 additional damage.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Call of the Void",
+    "description": "At the start of your turn, add 1 random card into your Hand. It gains Ethereal.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Capture Spirit",
+    "description": "Enemy loses 3 HP. Add 3 Souls into your Draw Pile.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Cleanse",
+    "description": "Summon 3. Exhaust 1 card from your Draw Pile.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Countdown",
+    "description": "At the start of your turn, apply 6 Doom to a random enemy.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Danse Macabre",
+    "description": "Whenever you play a card that costs  or more, gain 3 Block.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Death March",
+    "description": "Deal 8 damage. Deals 3 additional damage for each card drawn during your turn.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Death's Door",
+    "description": "Gain 6 Block. If you applied Doom this turn, gain Block 2 additional times.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Deathbringer",
+    "description": "Apply 21 Doom and 1 Weak to ALL enemies.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Debilitate",
+    "description": "Deal 7 damage. Vulnerable and Weak are twice as effective against the enemy for the next 3 turns.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Defend",
+    "description": "Gain 5 Block.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Defile",
+    "description": "Ethereal. Deal 13 damage.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Defy",
+    "description": "Ethereal. Gain 6 Block. Apply 1 Weak.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Delay",
+    "description": "Gain 11 Block. Next turn, gain .",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Demesne",
+    "description": "Ethereal. At the start of your turn, gain  and draw 1 additional card.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Devour Life",
+    "description": "Whenever you play a Soul, Summon 1.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Dirge",
+    "description": "Summon 3 X times. Add X Souls into your Draw Pile.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "X",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Drain Power",
+    "description": "Deal 10 damage. Upgrade 2 random cards in your Discard Pile.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Dredge",
+    "description": "Put 3 cards from your Discard Pile into your Hand. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Eidolon",
+    "description": "Exhaust your Hand. If 9 cards were Exhausted this way, gain 1 Intangible.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "End of Days",
+    "description": "Apply 29 Doom to ALL enemies. Kill enemies with at least as much Doom as HP.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Enfeebling Touch",
+    "description": "Ethereal. Enemy loses 8 Strength this turn.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Eradicate",
+    "description": "Retain. Deal 11 damage X times.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "X",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Fear",
+    "description": "Ethereal. Deal 7 damage. Apply 1 Vulnerable.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Fetch",
+    "description": "Osty deals 3 damage. If this is the first time this card has been played this turn, draw 1 card.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flatten",
+    "description": "Osty deals 12 damage. This card costs 0  if Osty has attacked this turn.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Forbidden Grimoire",
+    "description": "At the end of combat, you may remove a card from your Deck. Eternal.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Friendship",
+    "description": "Lose 2 Strength. Gain  at the start of each turn.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Glimpse Beyond",
+    "description": "ALL players add 3 Souls into their Draw Pile. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Grave Warden",
+    "description": "Gain 8 Block. Add a Soul into your Draw Pile.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Graveblast",
+    "description": "Deal 4 damage. Put a card from your Discard Pile into your Hand.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Hang",
+    "description": "Deal 10 damage. Double the damage ALL Hang cards deal to this enemy.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Haunt",
+    "description": "Whenever you play a Soul, a random enemy loses 6 HP.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "High Five",
+    "description": "Osty deals 11 damage and applies 2 Vulnerable to ALL enemies.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Invoke",
+    "description": "Next turn, Summon 2 and gain .",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Legion of Bone",
+    "description": "ALL players Summon 6. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Lethality",
+    "description": "Ethereal. The first Attack each turn deals 50% additional damage.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Melancholy",
+    "description": "Gain 13 Block. Reduce this card's cost by  whenever ANYONE dies.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Misery",
+    "description": "Deal 7 damage. Apply any debuffs on the enemy to ALL other enemies.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Necro Mastery",
+    "description": "Summon 5. Whenever Osty loses HP, ALL enemies lose that much HP as well.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Negative Pulse",
+    "description": "Gain 5 Block. Apply 7 Doom to ALL enemies.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Neurosurge",
+    "description": "Gain  . Draw 2 cards. At the start of your turn, apply 3 Doom to yourself.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "No Escape",
+    "description": "Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Oblivion",
+    "description": "Whenever you play a card this turn, apply 3 Doom to the enemy.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Pagestorm",
+    "description": "Whenever you draw an Ethereal card, draw 1 card.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Parse",
+    "description": "Ethereal. Draw 3 cards.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Poke",
+    "description": "Osty deals 6 damage.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Protector",
+    "description": "Osty deals 10 damage. Deals additional damage equal to Osty's Max HP.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Pull Aggro",
+    "description": "Summon 4. Gain 7 Block.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Pull from Below",
+    "description": "Deal 5 damage for each Ethereal card played this combat.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Putrefy",
+    "description": "Apply 2 Weak. Apply 2 Vulnerable. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rattle",
+    "description": "Osty deals 7 damage. Hits an additional time for each other time he has attacked this turn.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Reanimate",
+    "description": "Summon 20. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Reap",
+    "description": "Retain. Deal 27 damage.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Common"
+  },
+  {
+    "title": "Reaper Form",
+    "description": "Whenever Attacks deal damage, they also apply that much Doom.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Reave",
+    "description": "Deal 9 damage. Add a Soul into your Draw Pile.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Right Hand Hand",
+    "description": "Osty deals 4 damage. Whenever you play a card that costs  or more, return this to your Hand from the Discard Pile.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Sacrifice",
+    "description": "Retain. If Osty is alive, he dies and you gain Block equal to double his Max HP.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Scourge",
+    "description": "Apply 13 Doom. Draw 1 card.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Sculpting Strike",
+    "description": "Deal 8 damage. Add Ethereal to a card in your Hand.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Seance",
+    "description": "Ethereal. Transform a card in your Draw Pile into Soul.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Sentry Mode",
+    "description": "At the start of your turn, add 1 Sweeping Gaze into your Hand.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Severance",
+    "description": "Deal 13 damage. Add a Soul into your Draw Pile, Hand, and Discard Pile.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Shared Fate",
+    "description": "Lose 2 Strength. Enemy loses 2 Strength. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Shroud",
+    "description": "Whenever you apply Doom, gain 2 Block.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Sic 'Em",
+    "description": "Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 2.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Sleight of Flesh",
+    "description": "Whenever you apply a debuff to an enemy, they take 9 damage.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Snap",
+    "description": "Osty deals 7 damage. Add Retain to a card in your Hand.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Soul Storm",
+    "description": "Deal 9 damage. Deals 2 additional damage for each Soul in your Exhaust Pile.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Sow",
+    "description": "Retain. Deal 8 damage to ALL enemies.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Spirit of Ash",
+    "description": "Whenever you play an Ethereal card, gain 4 Block.",
+    "character": "Necrobinder",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Spur",
+    "description": "Retain. Summon 3. Osty heals 5 HP.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Squeeze",
+    "description": "Osty deals 25 damage. Deals 5 additional damage for ALL your other Osty Attacks.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Strike",
+    "description": "Deal 6 damage.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "The Scythe",
+    "description": "Deal 13 damage. Permanently increase this card's damage by 3. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Time's Up",
+    "description": "Deal damage equal to the enemy's Doom. Exhaust.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Transfigure",
+    "description": "Add Replay to a card in your Hand. It costs an extra .",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Undeath",
+    "description": "Gain 7 Block. Add a copy of this card into your Discard Pile.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Unleash",
+    "description": "Osty deals 6 damage. Deals additional damage equal to Osty's current HP.",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Veilpiercer",
+    "description": "Deal 10 damage. The next Ethereal card you play costs 0 .",
+    "character": "Necrobinder",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Wisp",
+    "description": "Gain . Exhaust.",
+    "character": "Necrobinder",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Alignment",
+    "description": "Gain .",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Arsenal",
+    "description": "Whenever you play a Colorless card, gain 1 Strength.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Astral Pulse",
+    "description": "Deal 14 damage to ALL enemies.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Beat into Shape",
+    "description": "Deal 5 damage. Forge 5. Forges an additional 5 for every other time you've hit the enemy this turn.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "BEGONE!",
+    "description": "Deal 4 damage. Choose a card in your Hand to Transform into Minion Dive Bomb.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Big Bang",
+    "description": "Draw 1 card. Gain . Gain . Forge 5. Exhaust.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Black Hole",
+    "description": "Whenever you spend or gain , deal 3 damage to ALL enemies.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bombardment",
+    "description": "Deal 18 damage. At the start of your turn, plays from the Exhaust Pile. Exhaust.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Bulwark",
+    "description": "Gain 13 Block. Forge 10.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bundle of Joy",
+    "description": "Add 3 random Colorless cards into your Hand. Exhaust.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Celestial Might",
+    "description": "Deal 6 damage 3 times.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "CHARGE!!",
+    "description": "Choose 2 cards in your Draw Pile to Transform into Minion Strikes.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Child of the Stars",
+    "description": "Whenever you spend , gain 2 Block for each  spent.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Cloak of Stars",
+    "description": "Gain 7 Block.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Collision Course",
+    "description": "Deal 9 damage. Add a Debris into your Hand.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Comet",
+    "description": "Deal 33 damage. Apply 3 Weak. Apply 3 Vulnerable.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Conqueror",
+    "description": "Forge 3. Sovereign Blade deals double damage to the enemy this turn.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Convergence",
+    "description": "Next turn, gain  and . Retain your Hand this turn.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Cosmic Indifference",
+    "description": "Gain 6 Block. Put a card from your Discard Pile on top of your Draw Pile.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Crash Landing",
+    "description": "Deal 21 damage to ALL enemies. Fill your Hand with Debris.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Crescent Spear",
+    "description": "Deal 6 damage. Deals 2 additional damage for ALL your cards that have a  cost.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Crush Under",
+    "description": "Deal 7 damage to ALL enemies. All enemies lose 1 Strength this turn.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Decisions, Decisions",
+    "description": "Draw 3 cards. Choose a Skill in your Hand and play it 3 times. Exhaust.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Defend",
+    "description": "Gain 5 Block.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Devastate",
+    "description": "Deal 30 damage.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Dying Star",
+    "description": "Ethereal. Deal 9 damage to ALL enemies. ALL enemies lose 9 Strength this turn.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Falling Star",
+    "description": "Deal 7 damage. Apply 1 Weak. Apply 1 Vulnerable.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Foregone Conclusion",
+    "description": "Next turn, put 2 cards from your Draw Pile into your Hand.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Furnace",
+    "description": "At the start of your turn, Forge 4.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Gamma Blast",
+    "description": "Deal 13 damage. Apply 2 Weak. Apply 2 Vulnerable.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Gather Light",
+    "description": "Gain 7 Block. Gain .",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Genesis",
+    "description": "At the start of your turn, gain .",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Glimmer",
+    "description": "Draw 3 cards. Put 1 card from your Hand on top of your Draw Pile.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Glitterstream",
+    "description": "Gain 11 Block. Next turn, gain 4 Block.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Common"
+  },
+  {
+    "title": "Glow",
+    "description": "Gain . Draw 2 cards.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "GUARDS!!!",
+    "description": "Transform any number of cards in your Hand into Minion Sacrifice.  Exhaust.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Guiding Star",
+    "description": "Deal 12 damage. Next turn, draw 2 cards.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Hammer Time",
+    "description": "Whenever you Forge, all allies Forge as well.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Heavenly Drill",
+    "description": "Deal 8 damage X times. Double X if it's 4 or more.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "X",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hegemony",
+    "description": "Deal 15 damage. Next turn, gain .",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Heirloom Hammer",
+    "description": "Deal 17 damage. Choose a Colorless card in your Hand. Add a copy of that card into your Hand.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hidden Cache",
+    "description": "Gain . Next turn, gain .",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "I Am Invincible",
+    "description": "Gain 9 Block. At the end of your turn, if this is on top of your Draw Pile, play it.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Kingly Kick",
+    "description": "Deal 24 damage. Whenever you draw this card, reduce its cost by 1.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "4",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Kingly Punch",
+    "description": "Deal 8 damage. Whenever you draw this card, increase its damage by 3 this combat.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Knockout Blow",
+    "description": "Deal 30 damage. If this kills an enemy, gain .",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Know Thy Place",
+    "description": "Apply 1 Weak. Apply 1 Vulnerable.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Common"
+  },
+  {
+    "title": "Largesse",
+    "description": "Another player adds 1 random  Colorless card to their Hand.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Lunar Blast",
+    "description": "Deal 4 damage for each Skill already played this turn.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Make It So",
+    "description": "Deal 6 damage. Every 3 Skills you play in a turn, put this into your Hand.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Manifest Authority",
+    "description": "Gain 7 Block. Add 1 random  Colorless card into your Hand.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Meteor Shower",
+    "description": "Deal 14 damage to ALL enemies. Apply 2 Weak and Vulnerable to ALL enemies.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Monarch's Gaze",
+    "description": "Whenever you attack an enemy, it loses 1 Strength this turn.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Monologue",
+    "description": "Whenever you play a card this turn, gain 1 Strength this turn.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Neutron Aegis",
+    "description": "Gain 8 Plating.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Orbit",
+    "description": "Every 4 you spend, gain .",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Pale Blue Dot",
+    "description": "If you play 5 or more cards in a turn, draw 1 card at the start of your next turn.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Parry",
+    "description": "Whenever you play Sovereign Blade, gain 6 Block.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Particle Wall",
+    "description": "Gain 9 Block. Return this card to your Hand.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Patter",
+    "description": "Gain 8 Block. Gain 2 Vigor.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Photon Cut",
+    "description": "Deal 10 damage. Draw 1 card. Put 1 card from your Hand on top of your Draw Pile.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Pillar of Creation",
+    "description": "Whenever you create a card, gain 3 Block.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Prophesize",
+    "description": "Draw 6 cards.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Quasar",
+    "description": "Choose 1 of 3 random  Colorless cards to add into your Hand.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Radiate",
+    "description": "Deal 3 damage to ALL enemies for each  gained this turn.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Refine Blade",
+    "description": "Forge 6. Next turn, gain .",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Reflect",
+    "description": "Gain 17 Block. Blocked attack damage is reflected to your attacker this turn.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Resonance",
+    "description": "Gain 1 Strength. ALL enemies lose 1 Strength.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Royal Gamble",
+    "description": "Gain 9 . Exhaust.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Royalties",
+    "description": "At the end of combat, gain 30 Gold.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Seeking Edge",
+    "description": "Forge 7. Sovereign Blade now deals damage to ALL enemies.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Seven Stars",
+    "description": "Deal 7 damage to ALL enemies 7 times.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Shining Strike",
+    "description": "Deal 8 damage. Gain . Put this card on top of your Draw Pile.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Solar Strike",
+    "description": "Deal 8 damage. Gain .",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Spectrum Shift",
+    "description": "At the start of your turn, add 1 random Colorless card into your Hand.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Spoils of Battle",
+    "description": "Forge 10.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Stardust",
+    "description": "Deal 5 damage to a random enemy X times.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Strike",
+    "description": "Deal 6 damage.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Summon Forth",
+    "description": "Forge 8. Put Sovereign Blade into your Hand from anywhere.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Supermassive",
+    "description": "Deal 5 damage. Deals 3 additional damage for each card you created this combat.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Sword Sage",
+    "description": "Increase the cost of Sovereign Blade by 1. Sovereign Blade now hits an additional time.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Terraforming",
+    "description": "Gain 6 Vigor.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "The Sealed Throne",
+    "description": "Whenever you play a card, gain .",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "The Smith",
+    "description": "Forge 30.",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Tyranny",
+    "description": "At the start of your turn, draw 1 card and Exhaust 1 card from your Hand.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Venerate",
+    "description": "Gain .",
+    "character": "Regent",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Starter"
+  },
+  {
+    "title": "Void Form",
+    "description": "End your turn. The first 2 cards you play each turn are free to play.",
+    "character": "Regent",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Wrought in War",
+    "description": "Deal 7 damage. Forge 5.",
+    "character": "Regent",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Common"
+  },
+  {
+    "title": "Alchemize",
+    "description": "Procure a random potion. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Anointed",
+    "description": "Put every Rare card from your Draw Pile into your Hand. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Automation",
+    "description": "Every 10 cards you draw, gain .",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Beacon of Hope",
+    "description": "Whenever you gain Block on your turn, other players gain half that much Block.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Beat Down",
+    "description": "Play 3 random Attacks from your Discard Pile.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Believe in You",
+    "description": "Another player gains  .",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Bolas",
+    "description": "Deal 3 damage. At the start of your next turn, return this to your Hand.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Calamity",
+    "description": "Whenever you play an Attack, add a random Attack into your Hand.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Catastrophe",
+    "description": "Play 2 random cards from your Draw Pile.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Coordinate",
+    "description": "Give another player 5 Strength this turn.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Dark Shackles",
+    "description": "Enemy loses 9 Strength this turn. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Discovery",
+    "description": "Choose 1 of 3 random cards to add into your Hand. It costs 0  this turn.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Dramatic Entrance",
+    "description": "Innate. Deal 11 damage to ALL enemies. Exhaust.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Entropy",
+    "description": "At the start of your turn, Transform 1 card in your Hand.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Equilibrium",
+    "description": "Gain 13 Block. Retain your Hand this turn.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Eternal Armor",
+    "description": "Gain 7 Plating.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Fasten",
+    "description": "Gain an additional 5 Block from Defend cards.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Finesse",
+    "description": "Gain 4 Block. Draw 1 card.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Fisticuffs",
+    "description": "Deal 7 damage. Gain Block equal to damage dealt.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Flash of Steel",
+    "description": "Deal 5 damage. Draw 1 card.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Gang Up",
+    "description": "Deal 5 damage. Deals 5 additional damage for each time another player has attacked the enemy this turn.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Gold Axe",
+    "description": "Deal damage equal to the number of cards played this combat.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hand of Greed",
+    "description": "Deal 20 damage. If Fatal, gain 20 Gold.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Hidden Gem",
+    "description": "A random card in your Draw Pile gains Replay 2.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Huddle Up",
+    "description": "ALL allies draw 2 cards.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Impatience",
+    "description": "If you have no Attacks in your Hand, draw 2 cards.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Intercept",
+    "description": "Gain 9 Block. Redirect all incoming attacks that would be dealt to another player this turn to you.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Jack of All Trades",
+    "description": "Add 1 random Colorless card into your Hand. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Jackpot",
+    "description": "Deal 25 damage. Add 3 random  0 cards into your Hand.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Knockdown",
+    "description": "Deal 10 damage. The enemy takes double damage from other players this turn.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Lift",
+    "description": "Give another player 11 Block.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Master of Strategy",
+    "description": "Draw 3 cards. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Mayhem",
+    "description": "At the start of your turn, play the top card of your Draw Pile.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Mimic",
+    "description": "Gain Block equal to the Block on another player.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Mind Blast",
+    "description": "Innate. Deal damage equal to the number of cards in your Draw Pile.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Nostalgia",
+    "description": "The first Attack or Skill you play each turn is placed on top of your Draw Pile.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Omnislice",
+    "description": "Deal 8 damage. Damage ALL other enemies equal to the damage dealt.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Panache",
+    "description": "Every time you play 5 cards in a single turn, deal 10 damage to ALL enemies.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Panic Button",
+    "description": "Gain 30 Block. You cannot gain Block from cards for 2 turns. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Prep Time",
+    "description": "At the start of your turn, gain 4 Vigor.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Production",
+    "description": "Gain .",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Prolong",
+    "description": "Next turn, gain Block equal to your current Block.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Prowess",
+    "description": "Gain 1 Strength. Gain 1 Dexterity.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Purity",
+    "description": "Retain. Exhaust up to 3 cards in your Hand. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rally",
+    "description": "ALL players gain 12 Block.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Rend",
+    "description": "Deal 15 damage. Deals 5 additional damage for each unique debuff on the enemy.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Restlessness",
+    "description": "Retain. If your Hand is empty, draw 2 cards and gain .",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Rolling Boulder",
+    "description": "At the start of your turn, deal 5 damage to ALL enemies and increase this damage by 5.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "3",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Salvo",
+    "description": "Deal 12 damage. Retain your Hand this turn.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Scrawl",
+    "description": "Draw cards until your Hand is full. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Secret Technique",
+    "description": "Put a Skill from your Draw Pile into your Hand.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Secret Weapon",
+    "description": "Put an Attack from your Draw Pile into your Hand.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Seeker Strike",
+    "description": "Deal 6 damage. Choose 1 of 3 cards in your Draw Pile to add into your Hand.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Shockwave",
+    "description": "Apply 3 Weak and Vulnerable to ALL enemies. Exhaust.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Splash",
+    "description": "Choose 1 of 3 random  Attacks from another character to add into your Hand. It's free to play this turn.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Stratagem",
+    "description": "Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",
+    "character": "Colorless",
+    "type": "Power",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Tag Team",
+    "description": "Deal 11 damage. The next Attack another player plays on the enemy is played an extra time.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "The Bomb",
+    "description": "At the end of 3 turns, deal 40 damage to ALL enemies.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "2",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "The Gambit",
+    "description": "Gain 50 Block. If you take unblocked attack damage this combat, die.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Rare"
+  },
+  {
+    "title": "Thinking Ahead",
+    "description": "Draw 2 cards. Put 1 card from your Hand on top of your Draw Pile.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "0",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Thrumming Hatchet",
+    "description": "Deal 11 damage. At the start of your next turn, return this to your Hand.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Ultimate Defend",
+    "description": "Gain 11 Block.",
+    "character": "Colorless",
+    "type": "Skill",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Ultimate Strike",
+    "description": "Deal 14 damage.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "1",
+    "rarity": "Uncommon"
+  },
+  {
+    "title": "Volley",
+    "description": "Deal 10 damage to a random enemy X times.",
+    "character": "Colorless",
+    "type": "Attack",
+    "energyCost": "X",
+    "rarity": "Uncommon"
+  }
+]

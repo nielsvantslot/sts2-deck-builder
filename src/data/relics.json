@@ -1,0 +1,1514 @@
+[
+  {
+    "name": "Akabeko",
+    "description": "At the start of each combat, gain 8 Vigor.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Alchemical Coffer",
+    "description": "Upon pickup, gain 4 potion slots filled with random potions.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Amethyst Aubergine",
+    "description": "Enemies drop 10 additional Gold.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Anchor",
+    "description": "Start each combat with 10 Block.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Arcane Scroll",
+    "description": "Upon pickup, obtain a random Rare Card to add to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Archaic Tooth",
+    "description": "Upon pickup, Transform a starter card with an ancient version.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Art of War",
+    "description": "If you do not play any Attacks during your turn, gain an additional  next turn.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Astrolabe",
+    "description": "Upon pickup, Transform 3 cards, then Upgrade them.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Bag of Marbles",
+    "description": "At the start of each combat, apply 1 Vulnerable to ALL enemies.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Bag of Preparation",
+    "description": "At the start of each combat, draw 2 additional cards.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Beating Remnant",
+    "description": "You cannot lose more than 20 HP in a single turn.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Beautiful Bracelet",
+    "description": "Upon pickup, choose 3 cards in your Deck. Enchant them with Swift 3.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Bellows",
+    "description": "The first Hand you draw each combat is Upgraded.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Belt Buckle",
+    "description": "While you have no potions, you have 2 additional Dexterity.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Big Hat",
+    "description": "At the start of each combat, add 2 random Ethereal cards into your Hand.",
+    "rarity": "Rare",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Biiig Hug",
+    "description": "Upon pickup, remove 4 cards from your Deck. Whenever you shuffle your Draw Pile, add a Soot into your Draw Pile.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Black Blood",
+    "description": "At the end of combat, heal 12 HP.",
+    "rarity": "Starter",
+    "character": "Colorless"
+  },
+  {
+    "name": "Black Star",
+    "description": "Elites drop an additional Relic when defeated.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Blessed Antler",
+    "description": "Gain  at the start of each turn. At the start of each combat, shuffle 3 Dazed into your Draw Pile.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Blood-Soaked Rose",
+    "description": "Upon pickup, add 1 Enthralled to your Deck. Gain  at the start of each turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Blood Vial",
+    "description": "At the start of each combat, heal 2 HP.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Bone Flute",
+    "description": "Whenever Osty attacks, gain 2 Block.",
+    "rarity": "Common",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Book of Five Rings",
+    "description": "Every 5 cards you add to your Deck, heal 15 HP.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Book Repair Knife",
+    "description": "Whenever a non-Minion enemy dies to Doom, heal 3 HP.",
+    "rarity": "Uncommon",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Bookmark",
+    "description": "At the end of each turn, lower the cost of a random Retained card by 1 until played.",
+    "rarity": "Rare",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Booming Conch",
+    "description": "At the start of Elite combats, draw 2 additional cards.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Bound Phylactery",
+    "description": "At the start of your turn, Summon 1.",
+    "rarity": "Starter",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Bowler Hat",
+    "description": "Gain 20% additional Gold.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Bread",
+    "description": "At the start of your first turn, lose . At the start of all other turns, gain .",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Brilliant Scarf",
+    "description": "The 5th card you play each turn is free.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Brimstone",
+    "description": "At the start of your turn, gain 2 Strength and ALL enemies gain 1 Strength.",
+    "rarity": "Shop",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bronze Scales",
+    "description": "Start each combat with 3 Thorns.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Burning Blood",
+    "description": "At the end of combat, heal 6 HP.",
+    "rarity": "Starter",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Burning Sticks",
+    "description": "The first time each combat you Exhaust a Skill, add a copy of it into your Hand.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Calling Bell",
+    "description": "Upon pickup, obtain a unique Curse and 3 Relics.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Candelabra",
+    "description": "At the start of your 2nd turn, gain .",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Captain's Wheel",
+    "description": "At the start of your 3rd turn, gain 18 Block.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Cauldron",
+    "description": "Upon pickup, brews 5 random potions.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Centennial Puzzle",
+    "description": "The first time you lose HP each combat, draw 3 cards.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Chandelier",
+    "description": "At the start of your 3rd turn, gain .",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Charon's Ashes",
+    "description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies.",
+    "rarity": "Rare",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Chemical X",
+    "description": "The effects of your cost X cards are increased by 2.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Choices Paradox",
+    "description": "At the start of each combat, add 1 of 5 random cards into your Hand. Add Retain to the chosen card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Claws",
+    "description": "Upon pickup, Transform up to 6 cards into Maul.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Cloak Clasp",
+    "description": "At the end of your turn, gain 1 Block for each card in your Hand.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Cracked Core",
+    "description": "At the start of each combat, Channel 1 Lightning.",
+    "rarity": "Starter",
+    "character": "Defect"
+  },
+  {
+    "name": "Crossbow",
+    "description": "At the start of your turn, add a random Attack into your Hand. It costs 0 this turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Cursed Pearl",
+    "description": "Upon pickup, receive Greed. Gain 333 Gold.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Data Disk",
+    "description": "Start each combat with 1 Focus.",
+    "rarity": "Common",
+    "character": "Defect"
+  },
+  {
+    "name": "Delicate Frond",
+    "description": "At the start of each combat, fill all empty potion slots with random potions.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Demon Tongue",
+    "description": "The first time you lose HP on your turn, heal HP equal to the amount lost.",
+    "rarity": "Rare",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Diamond Diadem",
+    "description": "Whenever you play 2 or fewer cards in a turn, take half damage from enemies.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Dingy Rug",
+    "description": "Card rewards can now contain Colorless cards.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Distinguished Cape",
+    "description": "Upon pickup, lose 9 Max HP. Add 3 Apparitions to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Divine Destiny",
+    "description": "At the start of each combat, gain .",
+    "rarity": "Starter",
+    "character": "Colorless"
+  },
+  {
+    "name": "Divine Right",
+    "description": "At the start of each combat, gain .",
+    "rarity": "Starter",
+    "character": "Regent"
+  },
+  {
+    "name": "Dolly's Mirror",
+    "description": "Upon pickup, obtain an additional copy of a card in your Deck.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Dragon Fruit",
+    "description": "Whenever you gain Gold, raise your Max HP by 1.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Driftwood",
+    "description": "You may reroll each card reward once.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Dusty Tome",
+    "description": "Upon pickup, obtain an Ancient Card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ectoplasm",
+    "description": "You can no longer gain Gold. Gain  at the start of each turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Electric Shrymp",
+    "description": "Upon pickup, Enchant a Skill with Imbued.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Emotion Chip",
+    "description": "If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn.",
+    "rarity": "Rare",
+    "character": "Defect"
+  },
+  {
+    "name": "Empty Cage",
+    "description": "Upon pickup, remove 2 cards from your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Eternal Feather",
+    "description": "For every 5 cards in your Deck, heal 3 HP whenever you enter a Rest Site.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Fencing Manual",
+    "description": "At the start of each combat, Forge 10.",
+    "rarity": "Common",
+    "character": "Regent"
+  },
+  {
+    "name": "Festive Popper",
+    "description": "At the start of each combat, deal 9 damage to ALL enemies.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Fiddle",
+    "description": "At the start of each turn, draw 2 additional cards. You may not draw cards during your turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Frozen Egg",
+    "description": "Whenever you add a Power into your Deck, Upgrade it.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Funerary Mask",
+    "description": "At the start of each combat, add 3 Souls into your Draw Pile.",
+    "rarity": "Uncommon",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Fur Coat",
+    "description": "Upon pickup, mark 7 random combats. Enemies in those rooms have 1 HP.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Galactic Dust",
+    "description": "For every 10  spent, gain 10 Block.",
+    "rarity": "Uncommon",
+    "character": "Regent"
+  },
+  {
+    "name": "Gambling Chip",
+    "description": "At the start of each combat, discard any number of cards then draw that many.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Game Piece",
+    "description": "Whenever you play a Power, draw 1 card.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ghost Seed",
+    "description": "Strikes and Defends gain Ethereal.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Girya",
+    "description": "You can now gain Strength at Rest Sites.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Glass Eye",
+    "description": "Upon pickup, obtain 2 Common cards, 2 Uncommon cards, and 1 Rare card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Glitter",
+    "description": "Enchant all card rewards with Glam.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Gnarled Hammer",
+    "description": "Upon pickup, Enchant up to 3 Attacks with Sharp 3.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Gold-Plated Cables",
+    "description": "Your rightmost Orb triggers its passive an additional time.",
+    "rarity": "Uncommon",
+    "character": "Defect"
+  },
+  {
+    "name": "Golden Compass",
+    "description": "Upon pickup, replace the Act 2 Map with a single special path.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Golden Pearl",
+    "description": "Upon pickup, gain 150 Gold.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Gorget",
+    "description": "At the start of each combat, gain 4 Plating.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Gremlin Horn",
+    "description": "Whenever an enemy dies, gain  and draw 1 card.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Happy Flower",
+    "description": "Every 3 turns, gain .",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Helical Dart",
+    "description": "Whenever you play a Shiv, gain 1 Dexterity this turn.",
+    "rarity": "Rare",
+    "character": "Silent"
+  },
+  {
+    "name": "Horn Cleat",
+    "description": "At the start of your 2nd turn, gain 14 Block.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ice Cream",
+    "description": "Energy is now conserved between turns.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Infused Core",
+    "description": "At the start of each combat, Channel 3 Lightning.",
+    "rarity": "Starter",
+    "character": "Colorless"
+  },
+  {
+    "name": "Intimidating Helmet",
+    "description": "Whenever you play a card that costs  or more, gain 4 Block.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Iron Club",
+    "description": "Every 4 cards you play, draw 1 card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ivory Tile",
+    "description": "Whenever you play a card that costs  or more, gain .",
+    "rarity": "Rare",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Jeweled Mask",
+    "description": "At the start of combat put a random Power from your Draw Pile into your Hand, it's free to play.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Jewelry Box",
+    "description": "Upon pickup, add 1 Apotheosis to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Joss Paper",
+    "description": "Every 5 times you Exhaust a card, draw 1 card.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Juzu Bracelet",
+    "description": "Regular enemy combats are no longer encountered in ? rooms.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Kifuda",
+    "description": "Upon pickup, Enchant up to 3 cards with Adroit.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Kunai",
+    "description": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Kusarigama",
+    "description": "Every time you play 3 Attacks in a single turn, deal 6 damage to a random enemy.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lantern",
+    "description": "Start each combat with an additional .",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Large Capsule",
+    "description": "Upon pickup, obtain 2 random Relics. Add an additional Strike and Defend to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lasting Candy",
+    "description": "Every other combat, your card rewards gain an additional Power.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lava Lamp",
+    "description": "At the end of combat, Upgrade all card rewards if you took no damage.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lava Rock",
+    "description": "The Act 1 Boss drops 2 Relics.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lead Paperweight",
+    "description": "Upon pickup, choose 1 of 2 Colorless cards to add to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Leafy Poultice",
+    "description": "Upon pickup, Transform 1 of your Strikes and 1 of your Defends and lose 10 Max HP.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lee's Waffle",
+    "description": "Upon pickup, raise your Max HP by 7 and heal all of your HP.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Letter Opener",
+    "description": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lizard Tail",
+    "description": "When you would die, heal to 50% of your Max HP instead.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Looming Fruit",
+    "description": "Upon pickup, raise your Max HP by 31.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lord's Parasol",
+    "description": "When you encounter the Merchant, immediately obtain EVERYTHING he sells.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lost Coffer",
+    "description": "Upon pickup, gain 1 card reward and procure 1 random potion.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lucky Fysh",
+    "description": "Whenever you add a card to your Deck, gain 15 Gold.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Lunar Pastry",
+    "description": "At the end of your turn, gain .",
+    "rarity": "Rare",
+    "character": "Regent"
+  },
+  {
+    "name": "Mango",
+    "description": "Upon pickup, raise your Max HP by 14.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Massive Scroll",
+    "description": "Upon pickup, choose 1 of 3 Multiplayer Colorless Cards to add to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Meal Ticket",
+    "description": "Whenever you enter a shop room, heal 15 HP.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Meat Cleaver",
+    "description": "You may Cook at Rest Sites.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Meat on the Bone",
+    "description": "If your HP is at or below 50% at the end of combat, heal 12 HP.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Membership Card",
+    "description": "50% discount on all products!",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Mercury Hourglass",
+    "description": "At the start of your turn, deal 3 damage to ALL enemies.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Metronome",
+    "description": "The first time you Channel 7 Orbs each combat, deal 30 damage to ALL enemies.",
+    "rarity": "Rare",
+    "character": "Defect"
+  },
+  {
+    "name": "Mini Regent",
+    "description": "The first time you spend  each turn, gain 1 Strength.",
+    "rarity": "Rare",
+    "character": "Regent"
+  },
+  {
+    "name": "Miniature Cannon",
+    "description": "Upgraded Attacks deal 3 additional damage.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Miniature Tent",
+    "description": "You may choose any number of options at Rest Sites.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Molten Egg",
+    "description": "Whenever you add an Attack card to your Deck, Upgrade it.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Mummified Hand",
+    "description": "Whenever you play a Power, a random card in your Hand is free to play that turn.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Music Box",
+    "description": "Create an Ethereal copy of the first Attack you play each turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Mystic Lighter",
+    "description": "Enchanted Attacks deal 9 additional damage.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Neow's Torment",
+    "description": "Upon pickup, add 1 Neow's Fury to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "New Leaf",
+    "description": "Upon pickup, Transform 1 card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ninja Scroll",
+    "description": "At the start of each combat, add 3 Shivs into your Hand.",
+    "rarity": "Shop",
+    "character": "Silent"
+  },
+  {
+    "name": "Nunchaku",
+    "description": "Every time you play 10 Attacks, gain .",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Nutritious Oyster",
+    "description": "Upon pickup, raise your Max HP by 11.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Nutritious Soup",
+    "description": "Upon pickup, Enchant all Strikes in your Deck with Tezcatara's Ember.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Oddly Smooth Stone",
+    "description": "Start each combat with 1 Dexterity.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Old Coin",
+    "description": "Upon pickup, gain 300 Gold.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Orange Dough",
+    "description": "At the start of each combat, add 2 random Colorless cards into your Hand.",
+    "rarity": "Rare",
+    "character": "Regent"
+  },
+  {
+    "name": "Orichalcum",
+    "description": "If you end your turn without Block, gain 6 Block.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ornamental Fan",
+    "description": "Every time you play 3 Attacks in a single turn, gain 4 Block.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Orrery",
+    "description": "Upon pickup, gain 5 card rewards.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Blood",
+    "description": "At the start of your turn, draw 1 additional card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Claw",
+    "description": "Upon pickup, Enchant all Defends with Goopy.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Eye",
+    "description": "The first time each combat you end your turn without playing cards, Exhaust your Hand, and take an extra turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Flesh",
+    "description": "Gain an additional  at the start of your 3rd turn, and every turn after that.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Growth",
+    "description": "Upon pickup, Enchant a card with Clone.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Horn",
+    "description": "Upon pickup, add 2 Relax to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Legion",
+    "description": "Doubles Block gained from a card, then goes to sleep for 2 turns.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Tears",
+    "description": "If you end your turn with unspent , gain an additional  next turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Tooth",
+    "description": "Upon pickup, remove 5 cards from your Deck. After each combat, randomly add 1 back Upgraded.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pael's Wing",
+    "description": "You may sacrifice card rewards to Pael. Every 2 sacrifices, obtain a Relic.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pandora's Box",
+    "description": "Transform ALL Strikes and Defends.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pantograph",
+    "description": "At the start of each Boss combat, heal 25 HP.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Paper Krane",
+    "description": "Enemies with Weak deal 40% less damage to you rather than 25%.",
+    "rarity": "Rare",
+    "character": "Silent"
+  },
+  {
+    "name": "Paper Phrog",
+    "description": "Enemies with Vulnerable take 75% more damage rather than 50%.",
+    "rarity": "Uncommon",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Parrying Shield",
+    "description": "If you end a turn with at least 10 Block, deal 6 damage to a random enemy.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pear",
+    "description": "Upon pickup, raise your Max HP by 10.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pen Nib",
+    "description": "Every 10th Attack you play deals double damage.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pendulum",
+    "description": "Whenever you shuffle your Draw Pile, draw a card.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Permafrost",
+    "description": "The first time you play a Power each combat, gain 6 Block.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Petrified Toad",
+    "description": "At the start of each combat, procure a Potion-Shaped Rock.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Philosopher's Stone",
+    "description": "Gain  at the start of each turn. ALL enemies start combat with 1 Strength.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Phylactery Unbound",
+    "description": "At the start of each combat, Summon 5. At the start of your turn, Summon 2.",
+    "rarity": "Starter",
+    "character": "Colorless"
+  },
+  {
+    "name": "Planisphere",
+    "description": "Whenever you enter a ? room, heal 4 HP.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pocketwatch",
+    "description": "Whenever you play 3 or fewer cards during your turn, draw 3 additional cards at the start of your next turn.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pomander",
+    "description": "Upon pickup, Upgrade a card.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Potion Belt",
+    "description": "Upon pickup, gain 2 potion slots.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Power Cell",
+    "description": "At the start of each combat, add 2 zero-cost cards from your Draw Pile into your Hand.",
+    "rarity": "Rare",
+    "character": "Defect"
+  },
+  {
+    "name": "Prayer Wheel",
+    "description": "Normal enemies drop an additional card reward.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Precarious Shears",
+    "description": "Upon pickup, remove 2 cards from your Deck and take 13 damage.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Precise Scissors",
+    "description": "Upon pickup, remove 1 card from your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Preserved Fog",
+    "description": "Upon pickup, remove 5 cards from your Deck. Add Folly to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Prismatic Gem",
+    "description": "Gain  at the start of each turn. Card rewards now contain cards from other colors.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Pumpkin Candle",
+    "description": "Gain  at the start of each turn. Extinguishes at the start of Act 3.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Punch Dagger",
+    "description": "Upon pickup, Enchant an Attack with Momentum 5.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Radiant Pearl",
+    "description": "At the start of each combat, add 1 Luminesce into your Hand.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Rainbow Ring",
+    "description": "The first time you play an Attack, Skill, and Power each turn, gain 1 Strength and 1 Dexterity.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Razor Tooth",
+    "description": "Every time you play an Attack or Skill, Upgrade it for the remainder of combat.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Red Mask",
+    "description": "At the start of each combat, apply 1 Weak to ALL enemies.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Red Skull",
+    "description": "While your HP is at or below 50%, you have 3 additional Strength.",
+    "rarity": "Common",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Regal Pillow",
+    "description": "Whenever you Rest, heal an additional 15 HP.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Regalite",
+    "description": "Whenever you create a Colorless card, gain 2 Block.",
+    "rarity": "Uncommon",
+    "character": "Regent"
+  },
+  {
+    "name": "Reptile Trinket",
+    "description": "Whenever you use a potion, gain 3 Strength this turn.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ring of the Drake",
+    "description": "At the start of your first 3 turns, draw 2 additional cards.",
+    "rarity": "Starter",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ring of the Snake",
+    "description": "At the start of each combat, draw 2 additional cards.",
+    "rarity": "Starter",
+    "character": "Silent"
+  },
+  {
+    "name": "Ringing Triangle",
+    "description": "Retain your Hand on the first turn of combat.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ripple Basin",
+    "description": "If you did not play any Attacks during your turn, gain 4 Block.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Royal Stamp",
+    "description": "Upon pickup, choose an Attack or Skill in your Deck to Enchant with Royally Approved.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Ruined Helmet",
+    "description": "The first time you gain Strength each combat, double the amount gained.",
+    "rarity": "Rare",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Runic Capacitor",
+    "description": "Start each combat with 3 additional Orb Slots.",
+    "rarity": "Shop",
+    "character": "Defect"
+  },
+  {
+    "name": "Runic Pyramid",
+    "description": "At the end of your turn, you no longer discard your Hand.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Sai",
+    "description": "At the start of your turn, gain 7 Block.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Sand Castle",
+    "description": "Upon pickup, Upgrade 6 random cards.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Screaming Flagon",
+    "description": "If you end your turn with no cards in your Hand, deal 20 damage to ALL enemies.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Scroll Boxes",
+    "description": "Upon pickup, lose all Gold and choose 1 of 2 packs of cards to add to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Sea Glass",
+    "description": "See 15 cards from another character. Choose any number of them to add to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Seal of Gold",
+    "description": "At the start of your turn, spend 5 Gold to gain .",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Self-Forming Clay",
+    "description": "Whenever you lose HP in combat, gain 3 Block next turn.",
+    "rarity": "Uncommon",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sere Talon",
+    "description": "Upon pickup, add 2 random Curses and 3 Wishes to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Shovel",
+    "description": "You can now dig at Rest Sites to obtain a random Relic.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Shuriken",
+    "description": "Every time you play 3 Attacks in a single turn, gain 1 Strength.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Signet Ring",
+    "description": "Upon pickup, gain 999 Gold.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Silver Crucible",
+    "description": "The first 3 card rewards you see are Upgraded. The first Treasure Chest you open is empty.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Sling of Courage",
+    "description": "Start each Elite combat with 2 Strength.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Small Capsule",
+    "description": "Upon pickup, obtain a random Relic.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Snecko Eye",
+    "description": "At the start of your turn, draw 2 additional cards. Start each combat Confused.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Snecko Skull",
+    "description": "Whenever you apply Poison, apply an additional 1 Poison.",
+    "rarity": "Common",
+    "character": "Silent"
+  },
+  {
+    "name": "Sozu",
+    "description": "Gain  at the start of each turn. You can no longer obtain potions.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Sparkling Rouge",
+    "description": "At the start of your 3rd turn, gain 1 Strength and 1 Dexterity.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Spiked Gauntlets",
+    "description": "Gain  at the start of each turn. Powers cost 1 more .",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Stone Calendar",
+    "description": "At the end of turn 7, deal 52 damage to ALL enemies.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Stone Cracker",
+    "description": "At the start of Boss combats, Upgrade 3 random cards in your Draw Pile for the rest of combat.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Stone Humidifier",
+    "description": "Whenever you Rest at a Rest Site, raise your Max HP by 5.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Storybook",
+    "description": "Upon pickup, add 1 Brightest Flame to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Strawberry",
+    "description": "Upon pickup, raise your Max HP by 7.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Strike Dummy",
+    "description": "Cards containing “Strike” deal 3 additional damage.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Sturdy Clamp",
+    "description": "Up to 10 Block persists across turns.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Symbiotic Virus",
+    "description": "At the start of each combat, Channel 1 Dark.",
+    "rarity": "Uncommon",
+    "character": "Defect"
+  },
+  {
+    "name": "Tanx's Whistle",
+    "description": "Upon pickup, add 1 Whistle to your Deck.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "The Abacus",
+    "description": "Whenever you shuffle your Draw Pile, gain 6 Block.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "The Courier",
+    "description": "The merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Throwing Axe",
+    "description": "The first card you play each combat is played an extra time.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Tingsha",
+    "description": "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded.",
+    "rarity": "Uncommon",
+    "character": "Silent"
+  },
+  {
+    "name": "Tiny Mailbox",
+    "description": "Whenever you Rest, procure a random potion.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Toasty Mittens",
+    "description": "At the start of your turn, Exhaust the top card of your Draw Pile and gain 1 Strength.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Toolbox",
+    "description": "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your Hand.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Touch of Orobas",
+    "description": "Upon pickup, replace your starter Relic with an Ancient version.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Tough Bandages",
+    "description": "Whenever you discard a card during your turn, gain 3 Block.",
+    "rarity": "Rare",
+    "character": "Silent"
+  },
+  {
+    "name": "Toxic Egg",
+    "description": "Whenever you add a Skill into your Deck, Upgrade it.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Toy Box",
+    "description": "Upon pickup, obtain 4 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Tri-Boomerang",
+    "description": "Choose 3 Attacks in your Deck. Enchant them with Instinct.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Tungsten Rod",
+    "description": "Whenever you would lose HP, lose 1 less.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Tuning Fork",
+    "description": "Every time you play 10 Skills, gain 7 Block.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Twisted Funnel",
+    "description": "At the start of each combat, apply 4 Poison to ALL enemies.",
+    "rarity": "Uncommon",
+    "character": "Silent"
+  },
+  {
+    "name": "Unceasing Top",
+    "description": "Whenever you have no cards in Hand during your turn, draw a card.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Undying Sigil",
+    "description": "Enemies with at least as much Doom as HP deal 50% less damage.",
+    "rarity": "Shop",
+    "character": "Necrobinder"
+  },
+  {
+    "name": "Unsettling Lamp",
+    "description": "Each combat, the first time you play a card that Debuffs an enemy, double its effect.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Vajra",
+    "description": "Start each combat with 1 Strength.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Vambrace",
+    "description": "The first time you gain Block from a card each combat, double the amount gained.",
+    "rarity": "Uncommon",
+    "character": "Colorless"
+  },
+  {
+    "name": "Velvet Choker",
+    "description": "Gain  at the start of each turn. You cannot play more than 6 cards per turn.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Venerable Tea Set",
+    "description": "Whenever you enter a Rest Site, start the next combat with an additional .",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Very Hot Cocoa",
+    "description": "Start each combat with an additional 4.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "Vexing Puzzlebox",
+    "description": "At the start of each combat, add a random card into your Hand. It costs 0.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Vitruvian Minion",
+    "description": "Cards containing “Minion” deal double damage and gain double Block.",
+    "rarity": "Shop",
+    "character": "Regent"
+  },
+  {
+    "name": "War Hammer",
+    "description": "Whenever you kill an Elite, Upgrade 4 random cards.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "War Paint",
+    "description": "Upon pickup, Upgrade 2 random Skills.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Whetstone",
+    "description": "Upon pickup, Upgrade 2 random Attacks.",
+    "rarity": "Common",
+    "character": "Colorless"
+  },
+  {
+    "name": "Whispering Earring",
+    "description": "Gain  at the start of each turn. Vakuu plays your first turn for you.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  },
+  {
+    "name": "White Beast Statue",
+    "description": "Potions always appear in combat rewards.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "White Star",
+    "description": "Elites drop an additional Rare card reward.",
+    "rarity": "Rare",
+    "character": "Colorless"
+  },
+  {
+    "name": "Wing Charm",
+    "description": "A random card in each card reward is Enchanted with Swift 1.",
+    "rarity": "Shop",
+    "character": "Colorless"
+  },
+  {
+    "name": "Yummy Cookie",
+    "description": "Upon pickup, Upgrade 4 cards.",
+    "rarity": "Ancient",
+    "character": "Colorless"
+  }
+]

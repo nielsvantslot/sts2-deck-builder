@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Ashwater",
+    "description": "Exhaust any number of cards in your Hand. Exhaust any number of cards in your Hand .",
+    "character": "Ironclad",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Attack Potion",
+    "description": "Choose 1 of 3 random Attack cards to add into your Hand. It's free to play this turn. Choose 1 of 3 random Attack cards to add into your Hand . It's free to play this turn.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Beetle Juice",
+    "description": "Enemy's attacks deal 30% less damage for the next 4 turns. Enemy's attacks deal 30% less damage for the next 4 turns.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Blessing of the Forge",
+    "description": "Upgrade all cards in your Hand for the rest of combat. Upgrade all cards in your Hand for the rest of combat.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Block Potion",
+    "description": "Gain 12 Block. Gain 12 Block .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Blood Potion",
+    "description": "Heal for 20% of your Max HP. Heal for 20% of your Max HP.",
+    "character": "Ironclad",
+    "rarity": "Common"
+  },
+  {
+    "name": "Bone Brew",
+    "description": "Summon 15. Summon 15.",
+    "character": "Necrobinder",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Bottled Potential",
+    "description": "Shuffle ALL your cards into your Draw Pile. Draw 5 cards. Shuffle ALL your cards into your Draw Pile . Draw 5 cards.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Clarity Extract",
+    "description": "Draw 1 card. At the start of your next 3 turns, draw 1 additional card. Draw 1 card. At the start of your next 3 turns, draw 1 additional card.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Colorless Potion",
+    "description": "Choose 1 of 3 random Colorless cards to add into your Hand. It's free to play this turn. Choose 1 of 3 random Colorless cards to add into your Hand . It's free to play this turn.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Cosmic Concoction",
+    "description": "Add 3 Upgraded Colorless cards into your Hand. Add 3 Upgraded Colorless cards into your Hand .",
+    "character": "Regent",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Cunning Potion",
+    "description": "Add 3 Upgraded Shivs into your Hand. Add 3 Upgraded  Shivs into your Hand .",
+    "character": "Silent",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Cure All",
+    "description": "Gain . Draw 2 cards. Gain . Draw 2 cards.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Dexterity Potion",
+    "description": "Gain 2 Dexterity. Gain 2 Dexterity .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Distilled Chaos",
+    "description": "Play the top 3 cards of your Draw Pile. Play the top 3 cards of your Draw Pile .",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Droplet of Precognition",
+    "description": "Choose a card in your Draw Pile and add it into your Hand. Choose a card in your Draw Pile and add it into your Hand .",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Duplicator",
+    "description": "This turn, your next card is played an extra time. This turn, your next card is played an extra time.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Energy Potion",
+    "description": "Gain . Gain  .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Entropic Brew",
+    "description": "Fill all your empty potion slots with random potions. Fill all your empty potion slots with random potions.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Essence of Darkness",
+    "description": "Channel a Dark for each of your Orb Slots. Channel a Dark for each of your Orb Slots.",
+    "character": "Defect",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Explosive Ampoule",
+    "description": "Deal 10 damage to ALL enemies. Deal 10 damage to ALL enemies.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Fairy in a Bottle",
+    "description": "When you would die, instead this potion is discarded and you heal to 30% of your Max HP. When you would die, instead this potion is discarded and you heal to 30% of your Max HP.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Fire Potion",
+    "description": "Deal 20 damage. Deal 20 damage.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Flex Potion",
+    "description": "Gain 5 Strength. At the end of your turn, lose 5 Strength. Gain 5 Strength . At the end of your turn, lose 5 Strength .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Focus Potion",
+    "description": "Gain 2 Focus. Gain 2 Focus .",
+    "character": "Defect",
+    "rarity": "Common"
+  },
+  {
+    "name": "Fortifier",
+    "description": "Triple your Block. Triple your Block .",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Foul Potion",
+    "description": "Deal 12 damage to EVERYONE. Can be thrown at the Merchant for 100 Gold instead. Deal 12 damage to EVERYONE. Can be thrown at the Merchant for 100 Gold instead.",
+    "character": "Colorless",
+    "rarity": "Event"
+  },
+  {
+    "name": "Fruit Juice",
+    "description": "Gain 5 Max HP. Gain 5 Max HP.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Fysh Oil",
+    "description": "Gain 1 Strength and 1 Dexterity. Gain 1 Strength and 1 Dexterity .",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Gambler's Brew",
+    "description": "Discard any number of cards, then draw that many. Discard any number of cards, then draw that many.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Ghost in a Jar",
+    "description": "Gain 1 Intangible. Gain 1 Intangible .",
+    "character": "Silent",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Gigantification Potion",
+    "description": "The next Attack you play deals triple damage. The next Attack you play deals triple damage.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Glowwater Potion",
+    "description": "Exhaust your Hand. Draw 10 cards. Exhaust your Hand . Draw 10 cards.",
+    "character": "Colorless",
+    "rarity": "Event"
+  },
+  {
+    "name": "Heart of Iron",
+    "description": "Gain 7 Plating. Gain 7 Plating .",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "King's Courage",
+    "description": "Forge 15. Forge 15.",
+    "character": "Regent",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Liquid Bronze",
+    "description": "Gain 3 Thorns. Gain 3 Thorns .",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Liquid Memories",
+    "description": "Put a card from your Discard Pile into your Hand. It costs 0  this turn. Put a card from your Discard Pile into your Hand . It costs 0 this turn.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Lucky Tonic",
+    "description": "Gain 1 Buffer. Gain 1 Buffer.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Mazaleth's Gift",
+    "description": "Gain 1 Ritual. Gain 1 Ritual.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Orobic Acid",
+    "description": "Add a random Attack, Skill, and Power into your Hand. They're free to play this turn. Add a random Attack , Skill, and Power into your Hand . They're free to play this turn.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Poison Potion",
+    "description": "Apply 6 Poison. Apply 6 Poison .",
+    "character": "Silent",
+    "rarity": "Common"
+  },
+  {
+    "name": "Pot of Ghouls",
+    "description": "Add 2 Souls into your Hand. Add 2 Souls into your Hand .",
+    "character": "Necrobinder",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Potion of Binding",
+    "description": "Apply 1 Weak and 1 Vulnerable to ALL enemies. Apply 1 Weak and 1 Vulnerable to ALL enemies.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Potion of Capacity",
+    "description": "Gain 2 Orb Slots. Gain 2 Orb Slots.",
+    "character": "Defect",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Potion of Doom",
+    "description": "Apply 33 Doom. Apply 33 Doom .",
+    "character": "Necrobinder",
+    "rarity": "Common"
+  },
+  {
+    "name": "Potion-Shaped Rock",
+    "description": "Deal 15 damage. Deal 15 damage.",
+    "character": "Colorless",
+    "rarity": "Token"
+  },
+  {
+    "name": "Powdered Demise",
+    "description": "Enemy loses 9 HP at the end of each of its turns. Enemy loses 9 HP at the end of each of its turns.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Power Potion",
+    "description": "Choose 1 of 3 random Power cards to add into your Hand. It's free to play this turn. Choose 1 of 3 random Power cards to add into your Hand . It's free to play this turn.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Radiant Tincture",
+    "description": "Gain . Gain an additional  at the start of your next 3 turns. Gain . Gain an additional at the start of your next 3 turns.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Regen Potion",
+    "description": "Gain 5 Regen. Gain 5 Regen.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Shackling Potion",
+    "description": "ALL enemies lose 7 Strength this turn. ALL enemies lose 7 Strength this turn.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Ship in a Bottle",
+    "description": "Gain 10 Block. Next turn, gain 10 Block. Gain 10 Block . Next turn, gain 10 Block .",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Skill Potion",
+    "description": "Choose 1 of 3 random Skill cards to add into your Hand. It's free to play this turn. Choose 1 of 3 random Skill cards to add into your Hand . It's free to play this turn.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Snecko Oil",
+    "description": "Draw 7 cards. Randomize the cost of cards in your Hand this turn. Draw 7 cards. Randomize the cost of cards in your Hand this turn.",
+    "character": "Colorless",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Soldier's Stew",
+    "description": "All cards containing Strike gain 1 Replay this combat. All cards containing Strike gain 1 Replay this combat.",
+    "character": "Ironclad",
+    "rarity": "Rare"
+  },
+  {
+    "name": "Speed Potion",
+    "description": "Gain 5 Dexterity. At the end of your turn, lose 5 Dexterity. Gain 5 Dexterity . At the end of your turn, lose 5 Dexterity .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Stable Serum",
+    "description": "Retain your Hand for 2 turns. Retain your Hand for 2 turns.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Star Potion",
+    "description": "Gain . Gain   .",
+    "character": "Regent",
+    "rarity": "Common"
+  },
+  {
+    "name": "Strength Potion",
+    "description": "Gain 2 Strength. Gain 2 Strength .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Swift Potion",
+    "description": "Draw 3 cards. Draw 3 cards.",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Touch of Insanity",
+    "description": "Choose a card in your Hand. It is free to play this combat. Choose a card in your Hand . It is free to play this combat.",
+    "character": "Colorless",
+    "rarity": "Uncommon"
+  },
+  {
+    "name": "Vulnerable Potion",
+    "description": "Apply 3 Vulnerable. Apply 3 Vulnerable .",
+    "character": "Colorless",
+    "rarity": "Common"
+  },
+  {
+    "name": "Weak Potion",
+    "description": "Apply 3 Weak. Apply 3 Weak .",
+    "character": "Colorless",
+    "rarity": "Common"
+  }
+]
