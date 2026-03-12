@@ -15,6 +15,7 @@
     "fetch-data": "tsx scripts/fetch-data.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "lz-string": "^1.5.0",
     "vue": "^3.5.25",
     "vue-router": "^4.5.1"

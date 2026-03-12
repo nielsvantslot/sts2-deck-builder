@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView, useRoute } from 'vue-router'
 import { ref, onMounted, onUnmounted, watch } from 'vue'
+import { Analytics } from '@vercel/analytics/vue'
 import BuyMeCoffee from '@/components/BuyMeCoffee.vue'
 
 const route = useRoute()
@@ -41,6 +42,7 @@ watch(
   <main id="main-content">
     <RouterView />
   </main>
+  <Analytics />
   <BuyMeCoffee />
 </template>
 
