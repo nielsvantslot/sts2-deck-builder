@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView, useRoute } from 'vue-router'
 import { ref, onMounted, onUnmounted, watch } from 'vue'
+import BuyMeCoffee from '@/components/BuyMeCoffee.vue'
 
 const route = useRoute()
 const scrolled = ref(false)
@@ -40,6 +41,7 @@ watch(
   <main id="main-content">
     <RouterView />
   </main>
+  <BuyMeCoffee />
 </template>
 
 <style scoped>
