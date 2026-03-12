@@ -1,17 +1,58 @@
 <script setup lang="ts">
+import { onMounted, ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { CHARACTER_MAP } from '@/lib/constants'
 import { useCards } from '@/composables/useCards'
 import { useDeck } from '@/composables/useDeck'
+import { encodeDeck, decodeDeck } from '@/lib/deck-code'
+import type { Card } from '@/lib/types'
+import allCards from '@/data/cards.json'
 import CardFilters from '@/components/CardFilters.vue'
 import CardList from '@/components/CardList.vue'
 import DeckPanel from '@/components/DeckPanel.vue'
 
 const props = defineProps<{ character: string }>()
+const route = useRoute()
+const router = useRouter()
 
 const charInfo = CHARACTER_MAP[props.character]
 const { searchQuery, typeFilter, rarityFilter, costFilter, sortBy, filteredCards, clearFilters } =
   useCards(props.character)
-const { deckEntries, deckSize, stats, addCard, removeCard, clearDeck, getCount } = useDeck()
+const { deckEntries, deckSize, stats, addCard, removeCard, clearDeck, getCount, loadDeck, exportDeck } = useDeck()
+
+const shareStatus = ref<'idle' | 'copied'>('idle')
+
+function buildCardMap(): Map<string, Card> {
+  const map = new Map<string, Card>()
+  for (const c of allCards as Card[]) {
+    map.set(c.title, c)
+  }
+  return map
+}
+
+onMounted(() => {
+  const code = route.query.d as string | undefined
+  if (!code) return
+  const entries = decodeDeck(code)
+  if (!entries) return
+  const cardMap = buildCardMap()
+  const resolved = entries
+    .map(({ title, count }) => {
+      const card = cardMap.get(title)
+      return card ? { card, count } : null
+    })
+    .filter((e): e is { card: Card; count: number } => e !== null)
+  if (resolved.length) loadDeck(resolved)
+})
+
+async function shareDeck() {
+  const code = encodeDeck(exportDeck())
+  if (!code) return
+  const url = new URL(window.location.origin + router.resolve({ name: 'deck-builder', params: { character: props.character }, query: { d: code } }).href)
+  await navigator.clipboard.writeText(url.toString())
+  shareStatus.value = 'copied'
+  setTimeout(() => { shareStatus.value = 'idle' }, 2000)
+}
 </script>
 
 <template>
@@ -57,9 +98,11 @@ const { deckEntries, deckSize, stats, addCard, removeCard, clearDeck, getCount }
         :entries="deckEntries"
         :deck-size="deckSize"
         :stats="stats"
+        :share-status="shareStatus"
         @add="addCard"
         @remove="removeCard"
         @clear="clearDeck"
+        @share="shareDeck"
       />
     </div>
   </div>

@@ -63,6 +63,21 @@ export function useDeck() {
     return deckMap.value.get(card.title)?.count ?? 0
   }
 
+  function loadDeck(cards: { card: Card; count: number }[]) {
+    const map = new Map<string, DeckEntry>()
+    for (const { card, count } of cards) {
+      map.set(card.title, { card, count })
+    }
+    deckMap.value = map
+  }
+
+  function exportDeck(): { title: string; count: number }[] {
+    return [...deckMap.value.values()].map(({ card, count }) => ({
+      title: card.title,
+      count,
+    }))
+  }
+
   return {
     deckEntries,
     deckSize,
@@ -71,5 +86,7 @@ export function useDeck() {
     removeCard,
     clearDeck,
     getCount,
+    loadDeck,
+    exportDeck,
   }
 }

@@ -10,12 +10,14 @@ defineProps<{
     types: Record<string, number>
     costs: Record<string, number>
   }
+  shareStatus: 'idle' | 'copied'
 }>()
 
 const emit = defineEmits<{
   add: [card: Card]
   remove: [card: Card]
   clear: []
+  share: []
 }>()
 
 const confirmingClear = ref(false)
@@ -45,9 +47,15 @@ function maxCostCount(costs: Record<string, number>): number {
         Deck
         <span class="panel-count">{{ deckSize }}</span>
       </h2>
-      <button v-if="deckSize" class="btn-clear" :class="{ confirming: confirmingClear }" @click="confirmClear">
-        {{ confirmingClear ? 'Confirm?' : 'Clear' }}
-      </button>
+      <div class="header-actions">
+        <button v-if="deckSize" class="btn-share" :class="{ copied: shareStatus === 'copied' }" @click="emit('share')">
+          <svg v-if="shareStatus === 'idle'" width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M6 10l4-4M13 3a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM13 13a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          {{ shareStatus === 'copied' ? 'Copied!' : 'Share' }}
+        </button>
+        <button v-if="deckSize" class="btn-clear" :class="{ confirming: confirmingClear }" @click="confirmClear">
+          {{ confirmingClear ? 'Confirm?' : 'Clear' }}
+        </button>
+      </div>
     </div>
 
     <template v-if="deckSize">
@@ -141,6 +149,38 @@ function maxCostCount(costs: Record<string, number>): number {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.btn-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-text-dim);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-share:hover {
+  color: var(--color-accent);
+  background: rgba(139, 92, 246, 0.08);
+  border-color: rgba(139, 92, 246, 0.15);
+}
+
+.btn-share.copied {
+  color: var(--color-accent);
+  border-color: rgba(139, 92, 246, 0.4);
+  background: rgba(139, 92, 246, 0.1);
 }
 
 .panel-title {
