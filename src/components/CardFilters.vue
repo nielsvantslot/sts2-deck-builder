@@ -65,8 +65,19 @@ const costs = ['0', '1', '2', '3', '4', '5', '6', 'X']
   gap: 0.65rem;
   padding: 1rem 1.25rem;
   border-radius: var(--radius-xl);
-  background: var(--color-surface-solid);
+  background:
+    linear-gradient(
+      165deg,
+      rgba(255, 255, 255, 0.025) 0%,
+      rgba(255, 255, 255, 0.008) 100%
+    );
   border: 1px solid var(--color-border);
+  backdrop-filter: blur(12px);
+  transition: border-color 0.4s ease;
+}
+
+.filters:focus-within {
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .search-row {

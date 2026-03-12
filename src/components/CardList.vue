@@ -72,7 +72,12 @@ const emit = defineEmits<{
   text-align: center;
   padding: 5rem 1rem;
   font-size: var(--text-sm);
-  background: var(--color-surface);
+  background:
+    linear-gradient(
+      165deg,
+      rgba(255, 255, 255, 0.015) 0%,
+      rgba(255, 255, 255, 0.005) 100%
+    );
   border: 1px dashed var(--color-border);
   border-radius: var(--radius-xl);
 }
