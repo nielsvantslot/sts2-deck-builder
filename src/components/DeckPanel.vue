@@ -6,6 +6,7 @@ import type { DeckEntry } from '@/composables/useDeck'
 const props = defineProps<{
   entries: DeckEntry[]
   deckSize: number
+  deckName: string
   stats: {
     types: Record<string, number>
     costs: Record<string, number>
@@ -18,6 +19,7 @@ const emit = defineEmits<{
   remove: [card: Card]
   clear: []
   share: []
+  'update:deckName': [value: string]
 }>()
 
 const confirmingClear = ref(false)
@@ -57,6 +59,17 @@ const maxCostCount = computed(() => Math.max(...costDistribution.value.map(([, c
           <h2 class="deck-title">Your Deck</h2>
           <span class="deck-count">{{ deckSize }}</span>
         </div>
+        <label class="deck-name">
+          <span class="deck-name-label">Deck name</span>
+          <input
+            class="deck-name-input"
+            type="text"
+            :value="deckName"
+            maxlength="60"
+            placeholder="Optional"
+            @input="emit('update:deckName', ($event.target as HTMLInputElement).value)"
+          />
+        </label>
         <div v-if="deckSize" class="deck-actions">
           <button class="action-pill action-pill--share" :class="{ copied: shareStatus === 'copied' }" @click="emit('share')">
             <svg v-if="shareStatus === 'idle'" width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M6 10l4-4M13 3a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM13 13a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -193,6 +206,37 @@ const maxCostCount = computed(() => Math.max(...costDistribution.value.map(([, c
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.deck-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.deck-name-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+  opacity: 0.8;
+}
+
+.deck-name-input {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--color-text);
+  padding: 0.55rem 0.65rem;
+  font-size: var(--text-xs);
+  outline: none;
+}
+
+.deck-name-input:focus {
+  border-color: rgba(139, 92, 246, 0.35);
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.12);
 }
 
 .deck-title {

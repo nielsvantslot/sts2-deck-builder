@@ -19,6 +19,17 @@ export const router = createRouter({
       props: true,
     },
     {
+      path: '/share/:character',
+      name: 'custom-deck',
+      component: () => import('@/pages/CustomDeckPage.vue'),
+      props: true,
+      beforeEnter(to) {
+        if (!CHARACTER_MAP[to.params.character as string]) {
+          return { name: 'not-found', params: { pathMatch: [to.path.slice(1)] } }
+        }
+      },
+    },
+    {
       path: '/characters/:characterId',
       name: 'character',
       component: () => import('@/pages/CharacterPage.vue'),
@@ -37,6 +48,12 @@ export const router = createRouter({
       beforeEnter(to) {
         if (!CHARACTER_MAP[to.params.character as string]) {
           return { name: 'not-found', params: { pathMatch: [to.path.slice(1)] } }
+        }
+
+        const hasSharedDeck = typeof to.query.d === 'string' && to.query.d.length > 0
+        const wantsEdit = to.query.edit === '1'
+        if (hasSharedDeck && !wantsEdit) {
+          return { name: 'custom-deck', params: { character: to.params.character }, query: { d: to.query.d } }
         }
       },
     },

@@ -22,6 +22,7 @@ const { searchQuery, typeFilter, rarityFilter, costFilter, sortBy, characterCard
 const { deckEntries, deckSize, stats, addCard, removeCard, clearDeck, getCount, loadDeck, exportDeck } = useDeck()
 
 const shareStatus = ref<'idle' | 'copied'>('idle')
+const deckName = ref('')
 
 function buildCardMap(): Map<string, Card> {
   const map = new Map<string, Card>()
@@ -33,6 +34,8 @@ function buildCardMap(): Map<string, Card> {
 
 onMounted(() => {
   const code = route.query.d as string | undefined
+  const initialName = route.query.n as string | undefined
+  if (typeof initialName === 'string') deckName.value = initialName
   if (!code) return
   const entries = decodeDeck(code)
   if (!entries) return
@@ -49,7 +52,15 @@ onMounted(() => {
 async function shareDeck() {
   const code = encodeDeck(exportDeck())
   if (!code) return
-  const url = new URL(window.location.origin + router.resolve({ name: 'deck-builder', params: { character: props.character }, query: { d: code } }).href)
+  const n = deckName.value.trim()
+  const url = new URL(
+    window.location.origin +
+      router.resolve({
+        name: 'custom-deck',
+        params: { character: props.character },
+        query: { d: code, ...(n ? { n } : {}) },
+      }).href,
+  )
   await navigator.clipboard.writeText(url.toString())
   shareStatus.value = 'copied'
   setTimeout(() => { shareStatus.value = 'idle' }, 2000)
@@ -102,8 +113,10 @@ async function shareDeck() {
       <DeckPanel
         :entries="deckEntries"
         :deck-size="deckSize"
+        :deck-name="deckName"
         :stats="stats"
         :share-status="shareStatus"
+        @update:deckName="deckName = $event"
         @add="addCard"
         @remove="removeCard"
         @clear="clearDeck"
