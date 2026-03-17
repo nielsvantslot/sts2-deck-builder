@@ -13,7 +13,8 @@ function getOrigin(req) {
   return `${proto}://${host}`
 }
 
-import { decompressFromEncodedURIComponent } from 'lz-string'
+
+const { decompressFromEncodedURIComponent } = require('lz-string')
 
 export default function handler(req, res) {
   const character = typeof req.query.character === 'string' ? req.query.character : ''
