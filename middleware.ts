@@ -11,8 +11,9 @@ export default function middleware(request: Request) {
   if (!BOT_UA_RE.test(ua)) return
 
   const character = url.pathname.slice('/share/'.length).split('/')[0] ?? ''
-  const target = new URL(`/api/share/${character}`, url)
+  const target = new URL('/api/share', url)
   target.search = url.search
+  if (character) target.searchParams.set('character', character)
   return rewrite(target)
 }
 

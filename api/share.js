@@ -13,19 +13,19 @@ function getOrigin(req) {
   return `${proto}://${host}`
 }
 
-module.exports = function handler(req, res) {
-  const character = String(req.query.character ?? '')
+export default function handler(req, res) {
+  const character = typeof req.query.character === 'string' ? req.query.character : ''
   const n = typeof req.query.n === 'string' ? req.query.n.trim() : ''
 
-  const title = n || `Custom ${character} deck`
-
+  const title = n || `Custom ${character || 'deck'}`
   const description = 'Shared deck for Slay the Spire 2 deck builder.'
 
   const origin = getOrigin(req)
-  const urlPath = `/share/${encodeURIComponent(character)}`
-  const url = `${origin}${urlPath}${req.url?.includes('?') ? req.url.slice(req.url.indexOf('?')) : ''}`
+  const shareUrl = new URL(`${origin}/share/${encodeURIComponent(character || '')}`)
+  for (const [k, v] of Object.entries(req.query)) {
+    if (typeof v === 'string') shareUrl.searchParams.set(k, v)
+  }
 
-  // Nice-to-have character image; fallback to favicon.
   const imageUrl = `${origin}/favicon.svg`
 
   const html = `<!doctype html>
@@ -39,7 +39,7 @@ module.exports = function handler(req, res) {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="${escapeHtmlAttr(title)}" />
     <meta property="og:description" content="${escapeHtmlAttr(description)}" />
-    <meta property="og:url" content="${escapeHtmlAttr(url)}" />
+    <meta property="og:url" content="${escapeHtmlAttr(shareUrl.toString())}" />
     <meta property="og:image" content="${escapeHtmlAttr(imageUrl)}" />
 
     <meta name="twitter:card" content="summary" />
