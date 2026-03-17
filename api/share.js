@@ -14,48 +14,65 @@ function getOrigin(req) {
 }
 
 
-let decompressFromEncodedURIComponent
-try {
-  decompressFromEncodedURIComponent = require('lz-string').decompressFromEncodedURIComponent
-} catch (err) {}
 
-export default function handler(req, res) {
+let decompressFromEncodedURIComponent
+async function getDecompressor() {
+  if (decompressFromEncodedURIComponent) return decompressFromEncodedURIComponent
+  try {
+    // Try require (CommonJS)
+      import { decompressFromEncodedURIComponent } from 'lz-string'
+    return decompressFromEncodedURIComponent
+  } catch (err) {}
+  try {
+    // Try dynamic import (ESM)
+    const mod = await import('lz-string')
+    decompressFromEncodedURIComponent = mod.decompressFromEncodedURIComponent
+    return decompressFromEncodedURIComponent
+  } catch (err) {}
+  return null
+}
+
+
+export default async function handler(req, res) {
   let errorTitle = null
   try {
-  const character = typeof req.query.character === 'string' ? req.query.character : ''
-  let n = typeof req.query.n === 'string' ? req.query.n.trim() : ''
+    const character = typeof req.query.character === 'string' ? req.query.character : ''
+    let n = typeof req.query.n === 'string' ? req.query.n.trim() : ''
 
-  // If n is missing, try to extract name from compressed deck code (d param)
-  if (!n && typeof req.query.d === 'string' && req.query.d.length > 0 && decompressFromEncodedURIComponent) {
-    try {
-      const json = decompressFromEncodedURIComponent(req.query.d)
-      if (json) {
-        const parsed = JSON.parse(json)
-        if (typeof parsed === 'object' && parsed !== null && 'name' in parsed && typeof parsed.name === 'string') {
-          n = parsed.name.trim()
+    // If n is missing, try to extract name from compressed deck code (d param)
+    if (!n && typeof req.query.d === 'string' && req.query.d.length > 0) {
+      const decompress = decompressFromEncodedURIComponent
+      if (decompress) {
+        try {
+          const json = decompress(req.query.d)
+          if (json) {
+            const parsed = JSON.parse(json)
+            if (typeof parsed === 'object' && parsed !== null && 'name' in parsed && typeof parsed.name === 'string') {
+              n = parsed.name.trim()
+            }
+          }
+        } catch (err) {
+          errorTitle = 'Invalid or corrupt deck code'
         }
       }
-    } catch (err) {
-      errorTitle = 'Invalid or corrupt deck code'
     }
-  }
 
-  let title = n || `Custom ${character || 'deck'}`
-  let description = 'Shared deck for Slay the Spire 2 deck builder.'
-  if (errorTitle) {
-    title = errorTitle
-    description = 'There was a problem decoding this deck.'
-  }
+    let title = n || `Custom ${character || 'deck'}`
+    let description = 'Shared deck for Slay the Spire 2 deck builder.'
+    if (errorTitle) {
+      title = errorTitle
+      description = 'There was a problem decoding this deck.'
+    }
 
-  const origin = getOrigin(req)
-  const shareUrl = new URL(`${origin}/share/${encodeURIComponent(character || '')}`)
-  for (const [k, v] of Object.entries(req.query)) {
-    if (typeof v === 'string') shareUrl.searchParams.set(k, v)
-  }
+    const origin = getOrigin(req)
+    const shareUrl = new URL(`${origin}/share/${encodeURIComponent(character || '')}`)
+    for (const [k, v] of Object.entries(req.query)) {
+      if (typeof v === 'string') shareUrl.searchParams.set(k, v)
+    }
 
-  const imageUrl = `${origin}/favicon.svg`
+    const imageUrl = `${origin}/favicon.svg`
 
-  const html = `<!doctype html>
+    const html = `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
