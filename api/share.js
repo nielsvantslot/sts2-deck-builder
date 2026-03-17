@@ -13,9 +13,24 @@ function getOrigin(req) {
   return `${proto}://${host}`
 }
 
+import { decompressFromEncodedURIComponent } from 'lz-string'
+
 export default function handler(req, res) {
   const character = typeof req.query.character === 'string' ? req.query.character : ''
-  const n = typeof req.query.n === 'string' ? req.query.n.trim() : ''
+  let n = typeof req.query.n === 'string' ? req.query.n.trim() : ''
+
+  // If n is missing, try to extract name from compressed deck code (d param)
+  if (!n && typeof req.query.d === 'string' && req.query.d.length > 0) {
+    try {
+      const json = decompressFromEncodedURIComponent(req.query.d)
+      if (json) {
+        const parsed = JSON.parse(json)
+        if (typeof parsed === 'object' && parsed !== null && 'name' in parsed && typeof parsed.name === 'string') {
+          n = parsed.name.trim()
+        }
+      }
+    } catch {}
+  }
 
   const title = n || `Custom ${character || 'deck'}`
   const description = 'Shared deck for Slay the Spire 2 deck builder.'
