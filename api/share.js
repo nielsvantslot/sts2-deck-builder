@@ -15,7 +15,7 @@ function getOrigin(req) {
 
 
 
-const { decompressFromEncodedURIComponent } = require('lz-string')
+import { decompressFromEncodedURIComponent } from 'lz-string'
 
 
 export default function handler(req, res) {
