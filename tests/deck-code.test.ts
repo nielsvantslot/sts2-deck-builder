@@ -9,15 +9,22 @@ describe('deck-code', () => {
     { title: 'Pommel Strike', count: 2 },
   ]
 
-  it('round-trips a deck through encode → decode', () => {
+  it('round-trips a deck through encode → decode (old format)', () => {
     const encoded = encodeDeck(sampleDeck)
     expect(encoded).toBeTruthy()
     const decoded = decodeDeck(encoded)
-    expect(decoded).toEqual(sampleDeck)
+    expect(decoded).toEqual({ entries: sampleDeck })
+  })
+
+  it('round-trips a deck with name (new format)', () => {
+    const encoded = encodeDeck(sampleDeck, 'My Custom Deck')
+    expect(encoded).toBeTruthy()
+    const decoded = decodeDeck(encoded)
+    expect(decoded).toEqual({ entries: sampleDeck, name: 'My Custom Deck' })
   })
 
   it('produces a URL-safe string with no special characters', () => {
-    const encoded = encodeDeck(sampleDeck)
+    const encoded = encodeDeck(sampleDeck, 'SafeName')
     // lz-string's compressToEncodedURIComponent only uses A-Z, a-z, 0-9, +, -, $, and space (no % needed)
     expect(encoded).toMatch(/^[\w+\-$. ]+$/)
     // Double-check: encodeURIComponent should not change it
@@ -26,6 +33,7 @@ describe('deck-code', () => {
 
   it('returns empty string for empty deck', () => {
     expect(encodeDeck([])).toBe('')
+    expect(encodeDeck([], 'ShouldIgnore')).toBe('')
   })
 
   it('returns null for empty input', () => {
@@ -54,9 +62,9 @@ describe('deck-code', () => {
       title: `Card ${i}`,
       count: (i % 3) + 1,
     }))
-    const encoded = encodeDeck(big)
+    const encoded = encodeDeck(big, 'Big Deck')
     // Even a 50-card deck should produce a reasonably short URL
     expect(encoded.length).toBeLessThan(500)
-    expect(decodeDeck(encoded)).toEqual(big)
+    expect(decodeDeck(encoded)).toEqual({ entries: big, name: 'Big Deck' })
   })
 })

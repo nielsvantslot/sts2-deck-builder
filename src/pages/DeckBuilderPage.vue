@@ -34,13 +34,14 @@ function buildCardMap(): Map<string, Card> {
 
 onMounted(() => {
   const code = route.query.d as string | undefined
-  const initialName = route.query.n as string | undefined
-  if (typeof initialName === 'string') deckName.value = initialName
   if (!code) return
-  const entries = decodeDeck(code)
-  if (!entries) return
+  const decoded = decodeDeck(code)
+  if (!decoded) return
+  if (decoded.name) {
+    deckName.value = decoded.name
+  }
   const cardMap = buildCardMap()
-  const resolved = entries
+  const resolved = decoded.entries
     .map(({ title, count }) => {
       const card = cardMap.get(title)
       return card ? { card, count } : null
@@ -50,15 +51,15 @@ onMounted(() => {
 })
 
 async function shareDeck() {
-  const code = encodeDeck(exportDeck())
-  if (!code) return
   const n = deckName.value.trim()
+  const code = encodeDeck(exportDeck(), n)
+  if (!code) return
   const url = new URL(
     window.location.origin +
       router.resolve({
         name: 'custom-deck',
         params: { character: props.character },
-        query: { d: code, ...(n ? { n } : {}) },
+        query: { d: code }, // no more n param
       }).href,
   )
   await navigator.clipboard.writeText(url.toString())

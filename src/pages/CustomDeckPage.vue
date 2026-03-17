@@ -13,8 +13,17 @@ const route = useRoute()
 const router = useRouter()
 
 const charInfo = computed(() => CHARACTER_MAP[props.character])
+
 const deckCode = computed(() => (route.query.d as string | undefined) ?? '')
-const deckName = computed(() => ((route.query.n as string | undefined) ?? '').trim())
+const decodedDeck = computed(() => {
+  const code = deckCode.value
+  if (!code) return null
+  return decodeDeck(code)
+})
+const deckName = computed(() => {
+  if (decodedDeck.value && decodedDeck.value.name) return decodedDeck.value.name.trim()
+  return ''
+})
 const heroTitle = computed(() => {
   if (deckName.value) return deckName.value
   return `Custom ${charInfo.value?.name ?? 'character'} deck`
@@ -27,14 +36,9 @@ function buildCardMap(): Map<string, Card> {
 }
 
 const resolvedCards = computed(() => {
-  const code = deckCode.value
-  if (!code) return [] as { card: Card; count: number }[]
-
-  const decoded = decodeDeck(code)
-  if (!decoded) return [] as { card: Card; count: number }[]
-
+  if (!decodedDeck.value) return [] as { card: Card; count: number }[]
   const cardMap = buildCardMap()
-  return decoded
+  return decodedDeck.value.entries
     .map(({ title, count }) => {
       const card = cardMap.get(title)
       return card ? { card, count } : null
@@ -83,10 +87,16 @@ const maxCostCount = computed(() => Math.max(...costDistribution.value.map(([, c
 function goEdit() {
   const code = deckCode.value
   if (!code) return
+  // For legacy: if deckName is not in code, add n param for backwards compatibility
+  const decoded = decodedDeck.value
+  const query: Record<string, string> = { d: code, edit: '1' }
+  if (!decoded || !decoded.name) {
+    if (deckName.value) query.n = deckName.value
+  }
   router.push({
     name: 'deck-builder',
     params: { character: props.character },
-    query: { d: code, edit: '1', ...(deckName.value ? { n: deckName.value } : {}) },
+    query,
   })
 }
 </script>
