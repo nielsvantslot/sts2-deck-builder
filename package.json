@@ -23,6 +23,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^24.10.1",
+    "@vercel/functions": "^3.4.3",
     "@vitejs/plugin-vue": "^6.0.2",
     "@vue/tsconfig": "^0.8.1",
     "tsx": "^4.19.4",
