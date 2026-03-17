@@ -1,6 +1,3 @@
-import { CHARACTER_MAP } from '../../src/lib/constants.js'
-import { decodeDeck } from '../../src/lib/deck-code.js'
-
 function escapeHtmlAttr(value) {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -16,25 +13,13 @@ function getOrigin(req) {
   return `${proto}://${host}`
 }
 
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   const character = String(req.query.character ?? '')
   const n = typeof req.query.n === 'string' ? req.query.n.trim() : ''
-  const d = typeof req.query.d === 'string' ? req.query.d : ''
 
-  const charInfo = CHARACTER_MAP[character]
-  const charName = charInfo?.name ?? 'Character'
+  const title = n || `Custom ${character} deck`
 
-  const title = n || `Custom ${charName} deck`
-
-  let description = 'Shared deck for Slay the Spire 2 deck builder.'
-  if (d) {
-    const decoded = decodeDeck(d)
-    if (decoded?.length) {
-      const total = decoded.reduce((sum, e) => sum + (e.count || 0), 0)
-      const unique = decoded.length
-      description = `${total} cards (${unique} unique). Open to view and edit.`
-    }
-  }
+  const description = 'Shared deck for Slay the Spire 2 deck builder.'
 
   const origin = getOrigin(req)
   const urlPath = `/share/${encodeURIComponent(character)}`
