@@ -15,25 +15,10 @@ function getOrigin(req) {
 
 
 
-let decompressFromEncodedURIComponent
-async function getDecompressor() {
-  if (decompressFromEncodedURIComponent) return decompressFromEncodedURIComponent
-  try {
-    // Try require (CommonJS)
-      import { decompressFromEncodedURIComponent } from 'lz-string'
-    return decompressFromEncodedURIComponent
-  } catch (err) {}
-  try {
-    // Try dynamic import (ESM)
-    const mod = await import('lz-string')
-    decompressFromEncodedURIComponent = mod.decompressFromEncodedURIComponent
-    return decompressFromEncodedURIComponent
-  } catch (err) {}
-  return null
-}
+const { decompressFromEncodedURIComponent } = require('lz-string')
 
 
-export default async function handler(req, res) {
+export default function handler(req, res) {
   let errorTitle = null
   try {
     const character = typeof req.query.character === 'string' ? req.query.character : ''
@@ -41,19 +26,16 @@ export default async function handler(req, res) {
 
     // If n is missing, try to extract name from compressed deck code (d param)
     if (!n && typeof req.query.d === 'string' && req.query.d.length > 0) {
-      const decompress = decompressFromEncodedURIComponent
-      if (decompress) {
-        try {
-          const json = decompress(req.query.d)
-          if (json) {
-            const parsed = JSON.parse(json)
-            if (typeof parsed === 'object' && parsed !== null && 'name' in parsed && typeof parsed.name === 'string') {
-              n = parsed.name.trim()
-            }
+      try {
+        const json = decompressFromEncodedURIComponent(req.query.d)
+        if (json) {
+          const parsed = JSON.parse(json)
+          if (typeof parsed === 'object' && parsed !== null && 'name' in parsed && typeof parsed.name === 'string') {
+            n = parsed.name.trim()
           }
-        } catch (err) {
-          errorTitle = 'Invalid or corrupt deck code'
         }
+      } catch (err) {
+        errorTitle = 'Invalid or corrupt deck code'
       }
     }
 
