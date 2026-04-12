@@ -1,3 +1,8 @@
+.floatingchat-container-wrap, .floating-chat-kofi-popup-iframe {
+  left: auto !important;
+  right: 16px !important;
+}
+
 :root {
   /* ===== Core Palette ===== */
   --color-bg: #050407;
