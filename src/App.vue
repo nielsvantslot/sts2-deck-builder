@@ -43,19 +43,7 @@ watch(
     <RouterView />
   </main>
   <Analytics />
-  <!-- Ko-fi Widget -->
-  <div id="kofi-widget"></div>
-  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-  <script>
-    if (window.kofiWidgetOverlay) {
-      window.kofiWidgetOverlay.draw('n_tty', {
-        'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Tip Us',
-        'floating-chat.donateButton.background-color': '#794bc4',
-        'floating-chat.donateButton.text-color': '#fff'
-      });
-    }
-  </script>
+  <KoFiWidget />
 </template>
 
 <style scoped>
