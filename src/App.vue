@@ -2,7 +2,7 @@
 import { RouterView, useRoute } from 'vue-router'
 import { ref, onMounted, onUnmounted, watch } from 'vue'
 import { Analytics } from '@vercel/analytics/vue'
-import BuyMeCoffee from '@/components/BuyMeCoffee.vue'
+
 
 const route = useRoute()
 const scrolled = ref(false)
@@ -43,7 +43,19 @@ watch(
     <RouterView />
   </main>
   <Analytics />
-  <BuyMeCoffee />
+  <!-- Ko-fi Widget -->
+  <div id="kofi-widget"></div>
+  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+  <script>
+    if (window.kofiWidgetOverlay) {
+      window.kofiWidgetOverlay.draw('n_tty', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Tip Us',
+        'floating-chat.donateButton.background-color': '#794bc4',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
+    }
+  </script>
 </template>
 
 <style scoped>
